@@ -1,0 +1,51 @@
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+                    {{ with .Site.Params.email }}
+                      <li>
+                        <a href="mailto:{{ . }}">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    {{ end }}
+                    {{ range .Site.Params.social }}
+                    <li>
+                      <a href="{{ .url }}">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    {{ end }}
+                  </ul>
+                  <p class="copyright text-muted">{{ .Site.Copyright }}</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
+
+    {{ if ($.Scratch.Get "photoswipeloaded") }}
+      <script src="{{ .Site.BaseURL }}/js/load-photoswipe.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+    {{ end }}
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="{{ .Site.BaseURL }}/js/theme.js"></script>
+    {{ template "_internal/google_analytics.html" . }}
+
+</body>
+</html>

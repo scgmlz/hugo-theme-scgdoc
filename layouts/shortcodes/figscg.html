@@ -1,0 +1,16 @@
+<!--
+Our own shortcode for figures 
+Features:
+Link to image by default
+-->
+
+{{- $src := .Get "src" -}}
+
+ 	<figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
+ 	  <a href="{{ $src }}">
+ 	  	<img src="{{ $src }}" {{ with .Get "width" }}width="{{.}}"{{end}}>
+ 	  </a>
+      <figcaption>
+      	<p> {{- .Get "caption" -}} </p>
+      </figcaption>
+	</figure>

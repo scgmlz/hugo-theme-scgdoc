@@ -1,0 +1,12 @@
+name = "hugo-theme-scgdoc"
+license = "MIT"
+licenselink = "https://github.com/scgmlz/hugo-theme-scgdoc/blob/master/LICENSE.md"
+description = "Documentation theme"
+homepage = "https://github.com/scgmlz/hugo-theme-scgdoc"
+tags = ["documentation", "menu", "blog", "bootstrap"]
+features = ["documentation", "menu", "blog", "bootstrap"]
+min_version = 0.32
+
+[author]
+  name = "Scientific Computing Group at MLZ"
+  homepage = "https://github.com/scgmlz"

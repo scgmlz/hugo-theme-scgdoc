@@ -1,0 +1,45 @@
+{{- $currentNode := . }}
+{{- range .Site.Home.Sections.ByWeight}}
+  {{- if eq .Type  "documentation" }}
+    <ul class="doctree">
+      {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode}}
+    </ul>
+  {{- end}}
+{{- end}}
+{{- define "section-tree-nav" }}
+{{- $currentNode := .currentnode }}
+{{- with .sect}}
+  {{- if .IsSection }}
+    <li class="dd-item
+        {{- if .IsAncestor $currentNode}} parent{{end}}
+        {{- if eq .URL $currentNode.URL}} active{{end}}">
+      {{- $numberOfPages := (add (len .Pages) (len .Sections)) }}
+      {{- if ne $numberOfPages 0 }}
+        {{- if .IsAncestor $currentNode }}
+          <i class="fa liOpened li-item-icon"></i>
+        {{- else -}}
+          <i class="fa liClosed li-item-icon"></i>
+        {{- end}}
+      {{- end}}
+      <a href="{{ .RelPermalink}}"><span>{{ .Title }}</span></a>
+      {{- if ne $numberOfPages 0 }}
+        <ul>
+          {{- $currentNode.Scratch.Set "pages" .Pages }}
+          {{- if .Sections}}
+            {{- $currentNode.Scratch.Set "pages" (.Pages | union .Sections) }}
+          {{- end}}          
+          {{- $pages := ($currentNode.Scratch.Get "pages") }}
+          {{- range $pages.ByWeight }}
+            {{- template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
+          {{- end}}
+        </ul>
+      {{- end}}
+    </li>
+  {{- else}}
+    <li class="dd-item {{- if eq .URL $currentNode.URL}} active{{end -}}">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="{{ .RelPermalink }}"><span>{{.Title}}</span> </a>
+    </li>
+  {{- end}}
+{{- end}}
+{{- end}}
