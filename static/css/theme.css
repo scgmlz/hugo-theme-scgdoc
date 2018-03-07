@@ -267,8 +267,18 @@ body {
 
 .navbar {
   padding: 10px 0 10px 0; }
+
   .navbar .brand img {
     padding-top: 11px; }
+  
+  .navbar-header a {
+      font-size: 28px;
+      color:   #ecf0f1;
+      font-family: 'Libre Baskerville', serif;
+      /* text-shadow: 2px 2px 2px #aaa; */
+      letter-spacing: 3px;
+  }
+    
   .navbar li a {
     color: #fff;
     font-size: 16px;
