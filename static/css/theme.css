@@ -272,11 +272,14 @@ body {
     padding-top: 11px; }
   
   .navbar-header a {
-      font-size: 28px;
+      font-size: 24px;
       color:   #ecf0f1;
       font-family: 'Libre Baskerville', serif;
       /* text-shadow: 2px 2px 2px #aaa; */
       letter-spacing: 3px;
+      background: url("../img/site-logo.png") no-repeat left;
+      padding-left: 42px;
+      white-space:nowrap;            
   }
     
   .navbar li a {
