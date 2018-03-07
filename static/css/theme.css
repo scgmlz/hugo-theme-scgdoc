@@ -586,14 +586,25 @@ table {
     border: 1px solid #eaeaea;
     table-layout: auto;
 }
+
 th {
     background: #f7f7f7;
     padding: 0.5rem;
 }
+
 td {
     padding: 0.5rem;
     border: 1px solid #eaeaea;
 }
+
+table.lntable td {
+    width: auto;
+}
+
+td:nth-child(1) > pre.chroma { margin: 6px 0px; color: #aaa; border-radius: 0; border: none; border-right: solid 1px; word-wrap: normal;}
+td:nth-child(2) > pre.chroma { margin: 6px 0px; border-radius: 0; border: 0; word-wrap: normal;}
+.lntd { width: 100%; border: none; background-color: #F5F5F5;  table-layout: auto;}
+
 
 /* ------------------------------------------------------------- *
  * Inline code 
@@ -609,65 +620,27 @@ code {
 /* ------------------------------------------------------------- *
  * Highlight shortcode
 /* ------------------------------------------------------------- */
-.highlight pre {
-  margin-top: 20px;
-  font-family: monospace;
-  font-size: 13px;
-}
 
-.highlight pre code {
-  white-space: nowrap;    // this sets all children inside to nowrap
-}
-
-.highlight pre {
-  overflow-x: auto;       // this sets the scrolling in x
-}
-
-.highlight pre code {
-  white-space: pre;       // forces <code> to respect <pre> formatting
-}
-
-.table-responsive { 
+.highlight { 
 	color: #333; 
-	border: 1px 
-	solid #ccc; 
+	border: none; 
     border-radius: 4px;
     margin-top: 20px;
-	margin-bottom: 10px; 
+    margin-bottom: 10px; 
 }
 
-table.highlighttable {
-	width: auto;
-	padding: 0px;
-    margin: 0px;
-	solid: #f0f0f0;
-	border: none;
-}
-
-table.highlighttable td {
-	padding: 0px;
-	width: auto;
-	border: none;
-}
-
-table.highlighttable td.code {
-	width: 100%;
-	border: none;
-}
-
-table.highlighttable td .linenodiv {
-	width: 45px;
-}
-
-.linenodiv pre, .code pre {
+.highlight pre {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: monospace;
   font-size: 13px;
-  line-height: 1.3em;
+  background-color: #F5F5F5;
+  overflow-x: auto;       /* this sets the scrolling in x */
 }
 
-.linenodiv pre { margin: 6px 0px; color: #aaa; border-radius: 0; border: none; border-right: solid 1px; word-wrap: normal; }
-.code .highlight pre { margin: 6px 0px; border-radius: 0; border: none; word-wrap: normal; }
-.highlighttable { width: 100%; background-color: #F5F5F5;  table-layout: fixed; }
+.highlight pre code {
+  white-space: pre;       /* forces <code> to respect <pre> formatting */
+}
 
 /* ------------------------------------------------------------- *
  * Notices shortcode
