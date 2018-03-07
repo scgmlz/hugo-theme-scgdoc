@@ -1,6 +1,5 @@
 +++
-title = "Home"
-Description = "No description"
+Description = "Prototype of the Hugo based documentation site"
 layout="landing"
 +++
 
