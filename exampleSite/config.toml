@@ -8,7 +8,7 @@ canonifyURLs = true
 
 # Code
 PygmentsCodeFences = true
-PygmentsUseClassic = true
+PygmentsUseClassic = false
 PygmentsUseClasses = true
 PygmentsStyle = "vs"
 
