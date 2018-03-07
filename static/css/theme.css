@@ -265,7 +265,27 @@ body {
   background-size: cover;
   position: relative; }
 
+
 .navbar {
+  padding: 10px 0 10px 0; 
+}
+
+.navbar-brand {
+    margin-right: auto !important;
+}  
+
+a.navbar-brand {
+  font-size: 24px;
+  color:   #ecf0f1 !important;
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: 3px;
+  background: url("../img/site-logo.png") no-repeat left;
+  padding-left: 42px;
+  white-space:nowrap;            
+}
+
+
+/* .navbar {
   padding: 10px 0 10px 0; }
 
   .navbar .brand img {
@@ -275,7 +295,6 @@ body {
       font-size: 24px;
       color:   #ecf0f1;
       font-family: 'Libre Baskerville', serif;
-      /* text-shadow: 2px 2px 2px #aaa; */
       letter-spacing: 3px;
       background: url("../img/site-logo.png") no-repeat left;
       padding-left: 42px;
@@ -311,7 +330,7 @@ body {
   font-size: 31px;
   margin-right: 15px;
   margin-top: -15px;
-  position: relative; }
+  position: relative; } */
 
 
 .masthead {
