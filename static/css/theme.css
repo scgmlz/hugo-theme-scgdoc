@@ -204,18 +204,6 @@ a.navbar-brand {
     display: block;
     padding: .5rem 1rem;
 }
-/* ------------------------------------------------------------- *
- *  Landing page styling
-/* ------------------------------------------------------------- */
-  
-
-.btn-group-lg > .btn, .btn-lg {
-    width: 100%;
-    padding: .5rem 1rem;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    border-radius: .3rem;
-}
 
 /* ------------------------------------------------------------- *
  *  Item list for documentation menubar
