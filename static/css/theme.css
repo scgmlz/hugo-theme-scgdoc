@@ -188,11 +188,12 @@ form .row:first-child .floating-label-form-group {
   
 .navbar {
     background: transparent !important;
+    padding-left: 0px;
 }
 
 a.navbar-brand {
     font-size: 24px;
-    color:   #ecf0f1 !important;
+    color:   #eaeded !important;
     font-family: 'Libre Baskerville', serif;
     letter-spacing: 3px;
     white-space:nowrap;            
@@ -200,6 +201,7 @@ a.navbar-brand {
   
 a.navbar-brand img {
     vertical-align:middle !important;
+    height:48px
 }
 
 .nav-link {
