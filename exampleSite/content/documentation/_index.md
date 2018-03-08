@@ -1,5 +1,6 @@
 +++
 title = "Documentation"
+description = "BornAgain documentation"
 weight = 10
 +++
 
