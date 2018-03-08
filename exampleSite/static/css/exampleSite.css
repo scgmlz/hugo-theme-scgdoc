@@ -1,0 +1,17 @@
+/* ------------------------------------------------------------- *
+ *  Landing page styling
+/* ------------------------------------------------------------- */
+  
+.btn-group-lg > .btn, .btn-lg {
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.bd-text-purple-bright {
+    color: #2a6783;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 3px;
+}
