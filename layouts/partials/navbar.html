@@ -10,8 +10,19 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         {{ range .Site.Menus.main }}
-          <li> <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+          <li class="nav-item"> <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
         {{end}}  
+
+        {{ range .Site.Params.social }}
+
+        <li class="nav-item">
+            <a class="nav-link" href="{{ .url }}" target="_blank" rel="noopener" aria-label="GitHub">
+              <span class="fa fa-github fa-2x"></span>
+            </a>
+          </li>        
+          {{ end}}
+
+
       </ul>
     </div>
   </nav>

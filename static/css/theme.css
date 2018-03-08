@@ -200,7 +200,10 @@ a.navbar-brand {
     white-space:nowrap;            
     line-height: 40px;
   } 
-
+  .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
 /* ------------------------------------------------------------- *
  *  Landing page styling
 /* ------------------------------------------------------------- */
