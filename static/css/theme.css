@@ -241,6 +241,13 @@ body {
  *  Top navigation bar
 /* ------------------------------------------------------------- */
 
+.hero {
+    background: url("../img/site-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+  
 .navbar {
     background: transparent !important;
 }
@@ -278,65 +285,6 @@ a.navbar-brand {
   vertical-align: middle;
   padding-right: 30px; }
 
-.hero {
-  background: url("../img/site-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
-
-
-.masthead {
-  padding: 100px 0 80px 0;
-  text-align: center; }
-  .masthead h1 {
-    color: #fff; }
-  .masthead p {
-    color: #fff;
-    font-size: 22px;
-    font-weight: 100;
-    margin: 0 auto;
-    padding-bottom: 15px;
-    padding-top: 30px;
-    text-align: center;
-    width: 70%; }
-  .masthead .search-field {
-    width: 100%;
-    font-size: 18px;
-    border-radius: 5px;
-    padding: 0px  30px;
-    border: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 40px; }
-  .masthead form {
-    position: relative;
-    margin-top: 10px; }
-  .masthead form button {
-    position: absolute;
-    right: 25px;
-    top: 25px;
-    background: none;
-    border: none;
-    font-size: 20px;
-    color: #86939e; }
-  .masthead .btn-hero {
-    border: 3px solid #fff;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin-top: 20px; }
-  .masthead .btn-hero:hover {
-    background: rgba(255, 255, 255, 0.2);
-    -webkit-transition: background-color 500ms ease-out 0.2s;
-    -moz-transition: background-color 500ms ease-out 0.2s;
-    -o-transition: background-color 500ms ease-out 0.2s;
-    transition: background-color 500ms ease-out 0.2s; }
-
-.single-masthead {
-  padding: 0 0 40px; }
-  .single-masthead .btn-hero {
-    margin-top: 20px;
-    float: right; }
 
 /* ------------------------------------------------------------- *
  *  Item list for documentation menubar
