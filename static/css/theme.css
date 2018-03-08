@@ -218,29 +218,6 @@ a.navbar-brand {
 }
 
 /* ------------------------------------------------------------- *
- *  Documentation header
-/* ------------------------------------------------------------- */
-
-.icon-right {
-  background: url("../img/icon-right.png");
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  vertical-align: middle;
-  margin-left: 40px; }
-
-.icon-git {
-  background: url("../img/icon-git.png");
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  vertical-align: middle;
-  padding-right: 30px; }
-
-
-/* ------------------------------------------------------------- *
  *  Item list for documentation menubar
 /* ------------------------------------------------------------- */
 

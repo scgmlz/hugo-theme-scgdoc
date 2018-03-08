@@ -12,17 +12,13 @@
         {{ range .Site.Menus.main }}
           <li class="nav-item"> <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
         {{end}}  
-
         {{ range .Site.Params.social }}
-
-        <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="{{ .url }}" target="_blank" rel="noopener" aria-label="GitHub">
               <span class="fa fa-github fa-2x"></span>
             </a>
           </li>        
-          {{ end}}
-
-
+        {{ end}}
       </ul>
     </div>
   </nav>
