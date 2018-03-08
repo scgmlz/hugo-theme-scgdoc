@@ -195,12 +195,14 @@ a.navbar-brand {
     color:   #ecf0f1 !important;
     font-family: 'Libre Baskerville', serif;
     letter-spacing: 3px;
-    background: url("../img/site-logo.png") no-repeat left;
-    padding-left: 42px;
     white-space:nowrap;            
-    line-height: 40px;
-  } 
-  .nav-link {
+  }
+  
+a.navbar-brand img {
+    vertical-align:middle !important;
+}
+
+.nav-link {
     display: block;
     padding: .5rem 1rem;
 }
