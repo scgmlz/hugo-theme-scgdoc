@@ -238,6 +238,25 @@ body {
 }
 
 /* ------------------------------------------------------------- *
+ *  Top navigation bar
+/* ------------------------------------------------------------- */
+
+.navbar {
+    background: transparent !important;
+}
+
+a.navbar-brand {
+    font-size: 24px;
+    color:   #ecf0f1 !important;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 3px;
+    background: url("../img/site-logo.png") no-repeat left;
+    padding-left: 42px;
+    white-space:nowrap;            
+    line-height: 40px;
+  } 
+  
+/* ------------------------------------------------------------- *
  *  Documentation header
 /* ------------------------------------------------------------- */
 
@@ -264,94 +283,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
-
-
-/* .navbar {
-  padding: 10px 0 10px 0; 
-}
-
-.navbar-brand {
-    margin-right: auto !important;
-}  
-
-a.navbar-brand {
-  font-size: 24px;
-  color:   #ecf0f1 !important;
-  font-family: 'Libre Baskerville', serif;
-  letter-spacing: 3px;
-  background: url("../img/site-logo.png") no-repeat left;
-  padding-left: 42px;
-  white-space:nowrap;            
-} */
-
-.navbar {
-    background: transparent !important;
-}
-
-/* a.navbar-brand {
-    line-height: 40px;
-} */
-
-
-a.navbar-brand {
-    font-size: 24px;
-    color:   #ecf0f1 !important;
-    font-family: 'Libre Baskerville', serif;
-    letter-spacing: 3px;
-    background: url("../img/site-logo.png") no-repeat left;
-    padding-left: 42px;
-    white-space:nowrap;            
-    line-height: 40px;
-  } 
-  
-
-
-/* .navbar {
-  padding: 10px 0 10px 0; }
-
-  .navbar .brand img {
-    padding-top: 11px; }
-  
-  .navbar-header a {
-      font-size: 24px;
-      color:   #ecf0f1;
-      font-family: 'Libre Baskerville', serif;
-      letter-spacing: 3px;
-      background: url("../img/site-logo.png") no-repeat left;
-      padding-left: 42px;
-      white-space:nowrap;            
-  }
-    
-  .navbar li a {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    padding-right: 20px; }
-  .navbar li a:hover, .navbar li a:focus {
-    background-color: transparent;
-    color: #7dc855;
-    text-decoration: none;
-    outline: medium none; }
-  .navbar .nav-btn {
-    padding: 10px 27px !important;
-    border: 2px solid #7dc855;
-    border-radius: 3px;
-    margin-top: 5px; }
-  .navbar .nav-btn:hover {
-    color: #fff;
-    background: #7dc855;
-    opacity: 0.9; }
-
-.navbar-toggle {
-  background: transparent none repeat scroll 0 0;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  color: #fff;
-  float: right;
-  font-size: 31px;
-  margin-right: 15px;
-  margin-top: -15px;
-  position: relative; } */
 
 
 .masthead {
