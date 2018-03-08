@@ -2,7 +2,7 @@ baseURL = "https://scgmlz.github.io/hugo-theme-scgdoc/"
 theme = "hugo-theme-scgdoc"
 themesdir = "../.."
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "ProjectName"
 MetaDataFormat = "toml"
 canonifyURLs = true
 
