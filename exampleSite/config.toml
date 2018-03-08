@@ -17,6 +17,7 @@ PygmentsStyle = "vs"
   Description = "Your site description"
   Author = "James Bond"
   email = "james.bond@gmail.com"
+  custom_css = ["css/exampleSite.css"]
 
 [[params.social]]
     title = "github"
