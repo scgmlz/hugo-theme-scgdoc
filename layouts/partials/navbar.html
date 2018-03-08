@@ -1,26 +1,19 @@
-<!-- Navigation -->
-<nav class="navbar">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="fa fa-bars"></span>
-      </button>
-      <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="navbar-collapse collapse" id="navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-primary">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+        <!-- <img src="/img/site-logo.png" class="d-inline-block align-top" alt=""> -->
+        {{ .Site.Title }}
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         {{ range .Site.Menus.main }}
-        <li>
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        </li>
-        {{end}}
+          <li> <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+        {{end}}  
       </ul>
     </div>
-    <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container -->
-</nav>
-
+  </nav>
+</div>
+  
