@@ -6,4 +6,4 @@ layout="landing"
 
 # Home
 
-Welcome 2.
+Welcome 3.

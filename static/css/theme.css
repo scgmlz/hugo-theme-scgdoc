@@ -266,7 +266,7 @@ body {
   position: relative; }
 
 
-.navbar {
+/* .navbar {
   padding: 10px 0 10px 0; 
 }
 
@@ -282,7 +282,28 @@ a.navbar-brand {
   background: url("../img/site-logo.png") no-repeat left;
   padding-left: 42px;
   white-space:nowrap;            
+} */
+
+.navbar {
+    background: transparent !important;
 }
+
+/* a.navbar-brand {
+    line-height: 40px;
+} */
+
+
+a.navbar-brand {
+    font-size: 24px;
+    color:   #ecf0f1 !important;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 3px;
+    background: url("../img/site-logo.png") no-repeat left;
+    padding-left: 42px;
+    white-space:nowrap;            
+    line-height: 40px;
+  } 
+  
 
 
 /* .navbar {
