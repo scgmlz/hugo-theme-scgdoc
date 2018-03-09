@@ -12,8 +12,8 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  local_dir: exampleSite/public
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  local-dir: "exampleSite/public"
+  github-token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
     branch: master
 
