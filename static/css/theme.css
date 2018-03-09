@@ -21,7 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 20px;
 	margin-bottom: 5px;
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 800
 }
 
 /* ------------------------------------------------------------- *
@@ -33,9 +32,6 @@ a {
 }
 a:hover, a:focus {
 	color: #0085a1
-}
-a img:hover, a img:focus {
-	cursor: zoom-in
 }
 
 a.linktofile[href$='.py'] {
