@@ -5,7 +5,6 @@ install:
   - curl -L https://github.com/spf13/hugo/releases/download/v$HUGO_VERSION/$HUGO_PACKAGE.tar.gz | tar xz
   - ls 
   - mkdir -p $HOME/bin
-  - pip install --user Pygments
   - mv ./hugo $HOME/bin/hugo
 script:
   - hugo -s exampleSite
