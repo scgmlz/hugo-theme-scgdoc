@@ -1,5 +1,6 @@
 ## Description
 
+
 Documentation theme for [Hugo](https://gohugo.io/) static site generator. 
 Developed by [Scientific Computing group at MLZ](https://github.com/scgmlz).
 
