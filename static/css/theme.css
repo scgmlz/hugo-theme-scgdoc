@@ -193,8 +193,7 @@ form .row:first-child .floating-label-form-group {
 
 a.navbar-brand {
     font-size: 24px;
-    color:   #eaeded !important;
-    font-family: 'Libre Baskerville', serif;
+    color:   #cecece !important;
     letter-spacing: 3px;
     white-space:nowrap;            
   }
