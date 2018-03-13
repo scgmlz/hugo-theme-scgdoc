@@ -1,10 +1,4 @@
 {{ define "main_body" }}
 DEBUG: layouts/post/single.html
-  {{ with .Params.authors }}
-    {{ range $i, $tag :=  . }}
-      {{ $author := index $.Site.Params.authors $tag }}
-      {{ $author.name}}
-    {{end}}
-  {{end}}
 	{{ .Content }}
 {{ end }}

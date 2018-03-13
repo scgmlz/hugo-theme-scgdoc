@@ -1,6 +1,20 @@
 {{ if .Site.Params.ShowReadTime }}
   A {{ .ReadingTime }} minute read,
 {{ end }}
-Posted by <a href="#">{{ .Site.Params.Author }}</a> on {{ dateFormat .Site.Params.DateForm .Date }}
+
+Posted
+{{ with .Params.authors }}
+by
+  {{ range $i, $key :=  . }}
+    {{ $author := index $.Site.Params.authors $key }}
+    <a href="{{ $author.url}}">{{ $author.name}}</a>
+    {{- if or (eq $i 0) -}}
+    ,
+    {{end}}
+
+  {{end}}
+  
+{{end}}
+on {{ dateFormat .Site.Params.DateForm .Date }}
 <br />
 {{ partial "tags.html" .}}
