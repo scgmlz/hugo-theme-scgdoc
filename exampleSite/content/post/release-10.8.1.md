@@ -6,6 +6,7 @@ categories = ["News"]
 description = "A bugfix release for BornAgain is now available.."
 draft = false
 comments = false
+authors = ["author2"]
 +++
 
 {{% alert theme="success" %}}

@@ -24,6 +24,14 @@ PygmentsStyle = "vs"
     title = "github"
     url = "https://github.com/gamesbond"
 
+[params.authors.author1]
+  name = "First Author"
+  url = "http://first-author.com"
+  
+[params.authors.author2]
+  name = "Second Author"
+  url = "http://second-author.com"
+
 [[menu.main]]
   name = "Home"
   url = "/"
