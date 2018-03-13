@@ -6,6 +6,7 @@ categories = ["News"]
 description = "BornAgain 1.9 has been released."
 draft = false
 comments = false
+authors = ["author1"]
 +++
 
 {{% alert theme="success" %}}
