@@ -21,6 +21,7 @@ PygmentsStyle = "vs"
   email = "james.bond@gmail.com"
   custom_css = ["css/exampleSite.css"]
   logo = "img/site-logo.png"
+  Debug = true
 
 [[params.social]]
     title = "github"

@@ -1,5 +1,3 @@
 +++
-title = "News X"
+title = "News"
 +++
-
-This is content/post/_index.md file. Nothing is here.
