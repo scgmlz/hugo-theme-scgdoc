@@ -1,8 +1,10 @@
 {{ define "main_body" }}
   {{ .Content }}
 
+  
   {{ range (where .Site.RegularPages "Section" "post") }} 
     {{ .Render "summary"}}
+    <hr>
   {{ end }}
 
   <ul class="pager">
@@ -10,7 +12,5 @@
       <a href="{{ .Site.BaseURL }}/post/">Older Posts &rarr;</a>
     </li>
   </ul>
-
-  <p> PAGER</p>
 
 {{ end }}
