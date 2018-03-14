@@ -282,6 +282,18 @@ div > ul ol, div > ol ol {
 }
 
 /* ------------------------------------------------------------- *
+ *  Pagination
+/* ------------------------------------------------------------- */
+
+div.post-page > *:last-child{
+  display: none; 
+}
+
+.pagination {
+  margin-top: 2rem;
+}
+
+/* ------------------------------------------------------------- *
  *  Table of page's content
  *  (see discussion https://github.com/gohugoio/hugo/issues/1778)
 /* ------------------------------------------------------------- */
