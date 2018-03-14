@@ -1,5 +1,5 @@
 {{ define "main_body" }}
-DEBUG: theme/layouts/documentation/single.html
+  {{ if .Site.Params.Debug}}theme/layout/documentation/single.html{{end}}
   {{ .Content }}
 {{ end }}
 

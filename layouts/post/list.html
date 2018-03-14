@@ -4,10 +4,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          {{ if .Site.Params.Debug}}theme/layout/_default/list.html{{end}}
+          <div class="post-page">
+          {{ if .Site.Params.Debug}}theme/layout/post/list.html{{end}}
           {{ range .Paginator.Pages }}
-              {{ .Render "archive" }}
-          {{ end }}
+              {{ .Render "summary" }}
+              <hr>
+              {{ end }}
+          </div>
           {{- partial "pagination.html" . }}
         </div>
       </div>
