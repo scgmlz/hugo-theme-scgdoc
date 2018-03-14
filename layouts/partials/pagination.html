@@ -1,15 +1,33 @@
 {{ $paginator := .Paginator }}
 
 <nav>
-
-<ul class="pagination">
-    {{ range $paginator.Pagers }}
-    <li class="page-item {{ if eq . $paginator }} active{{ end }}">
-      <a href="{{ .URL }}" class="page-link">
-        {{ .PageNumber }}
-      </a>
-    </li>
+  <ul class="pagination">
+    {{ if $paginator.HasPrev }}
+      <li class="page-item">
+        <a href="{{ $paginator.Prev.URL }}" class="page-link">Previous</a>
+      </li>
+    {{else}}
+      <li class="page-item disabled">
+        <a href="#" class="page-link">Previous</a>
+      </li>  
     {{ end }}
-  </ul>
 
+    {{ range $paginator.Pagers }}
+      <li class="page-item {{ if eq . $paginator }} active{{ end }}">
+        <a href="{{ .URL }}" class="page-link">
+          {{ .PageNumber }}
+        </a>
+      </li>
+    {{ end }}
+
+    {{ if $paginator.HasNext }}
+      <li class="page-item">
+        <a href="{{ $paginator.Next.URL }}" class="page-link">Next</a>
+      </li>
+    {{ else}}
+      <li class="page-item disabled">
+        <a href="#" class="page-link">Next</a>
+      </li>  
+    {{ end }}   
+  </ul>
 </nav>
