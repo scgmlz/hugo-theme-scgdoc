@@ -1,4 +1,4 @@
 {{ define "main_body" }}
-DEBUG: layouts/post/single.html
+  {{ if .Site.Params.Debug}}theme/layout/post/single.html{{end}}
 	{{ .Content }}
 {{ end }}

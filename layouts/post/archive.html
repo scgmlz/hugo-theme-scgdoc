@@ -1,4 +1,4 @@
-  DEBUG: layouts/posts/archive.html
+{{ if .Site.Params.Debug}}theme/layout/post/archive.html{{end}}
 
                <div class="post-preview">
                   <p class="post-meta"><a href="{{ .Permalink }}">{{ .Title }}</a> on {{ dateFormat .Site.Params.DateForm .Date }}

@@ -1,4 +1,4 @@
-DEBUG: layouts/post/summary.html
+{{ if .Site.Params.Debug}}theme/layout/post/summary.html{{end}}
 <div class="post-preview">
   <a href="{{ .Permalink }}">
     <h2 class="post-title">{{ .Title }}</h2>

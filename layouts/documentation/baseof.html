@@ -9,7 +9,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      DEBUG: theme/layouts/documentation/baseof.html
+      {{ if .Site.Params.Debug}}theme/layout/documentation/baseof.html{{end}}
       {{ block "main_body" . }}
       {{ end }}
     </div>
