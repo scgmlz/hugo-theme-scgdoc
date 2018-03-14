@@ -1,0 +1,15 @@
+{{ $paginator := .Paginator }}
+
+<nav>
+
+<ul class="pagination">
+    {{ range $paginator.Pagers }}
+    <li class="page-item {{ if eq . $paginator }} active{{ end }}">
+      <a href="{{ .URL }}" class="page-link">
+        {{ .PageNumber }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+
+</nav>
