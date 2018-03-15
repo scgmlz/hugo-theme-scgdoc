@@ -1,6 +1,6 @@
 +++
 title = "Custom figfancy shortcode"
-weight = 30
+weight = 40
 +++
 
 ### Custom figfancy shortcode
