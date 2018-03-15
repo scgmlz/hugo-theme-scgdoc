@@ -1,12 +1,14 @@
 +++
 title = "Resource image"
 weight = 50
+showimages = true
+showresizedimages = true
 +++
 
 ## Resource image
 
 Tutorial demonstrates how to resize an image on Hugo site before inserting it in html.
-Image should reside in content/media.
+
 
 This technique is applied when original images are large but have to be embedded as small one to reduce page load time (e.g. in the context of image gallery).
 

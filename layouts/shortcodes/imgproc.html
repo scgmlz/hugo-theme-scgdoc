@@ -2,10 +2,7 @@
 {{ $command := .Get 1 }}
 {{ $options := .Get 2 }}
 
-<!-- {{ $original := .Page.Resources.GetMatch (printf "%s*" (.Get 0)) }} -->
-
-  {{ $media := .Site.GetPage "section" "media" }}
-  {{ $original := $media.Resources.GetMatch  $imagename }}
+{{ $original := .Page.Resources.GetMatch (printf "%s*" (.Get 0)) }}
 
   {{ if eq $command "Fit"}}
     {{ .Scratch.Set "image" ($original.Fit $options) }}

@@ -1,8 +1,7 @@
-{{ $imagename := (.Get 0) }}
+{{ $original := .Page.Resources.GetMatch (printf "%s*" (.Get 0)) }}
 {{ $options := .Get 1 }}
-{{ with .Site.GetPage "section" "media" }}
-  {{ $original := .Resources.GetMatch  $imagename }}
-  {{ with ($original.Resize $options) }}
+{{ with ($original.Resize $options) }}
   <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-  {{ end }} 
-{{ end }}
+{{ end }} 
+
+
