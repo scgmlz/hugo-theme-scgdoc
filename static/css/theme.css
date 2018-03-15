@@ -360,14 +360,12 @@ figure.center img{
   margin-right: auto;
 }
 
-figure.center, figure.floatleft figcaption{
+figure.center, figure.float-left figcaption{
   text-align: center;
 }
 
-figure.floatleft {
-  display: block;
-  padding-right: 15px;
-  float: left;
+figure.float-left {
+  padding-right: 0.7rem;
 }
 
 /* ------------------------------------------------------------- *
