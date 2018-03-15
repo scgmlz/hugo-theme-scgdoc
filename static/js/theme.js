@@ -1014,8 +1014,6 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-    baguetteBox.run('.galleryscg');
-
     //primary navigation slide-in effect
     if ($(window).width() > MQL) {
         var headerHeight = $('.navbar-custom').height();
