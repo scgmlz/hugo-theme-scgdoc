@@ -55,6 +55,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 
+#### Notices
+
+{{% notice note %}}
+A notice disclaimer
+{{% /notice %}}
+
+{{% notice tip %}}
+A notice disclaimer
+{{% /notice %}}
+
+{{% notice warning %}}
+A notice disclaimer
+{{% /notice %}}
+
 #### Cards
 
 See [Bootstrap cards](https://getbootstrap.com/docs/4.0/components/card/)
