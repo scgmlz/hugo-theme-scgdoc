@@ -84,8 +84,6 @@ figure {
 img / a styles
 */
 
-img {max-width:100%;} 
-
 .gallery .img {
     position: absolute;
     left: 0;
