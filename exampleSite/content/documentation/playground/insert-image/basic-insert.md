@@ -38,11 +38,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 
-#### With caption - not possible (?)
+#### With caption: not possible
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 
-#### Resizing - not possible (?)
+#### Custom size: not possible
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 
@@ -52,11 +52,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
 
 <img src="../cylinder_640.png" alt="Drawing" style="width: 200px;"/>
 
-#### Using Alt attribute to define style - fixed size, centered
+#### Using Alt attribute to define style: fixed size, centered
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 
-![my_style1](../cylinder_320.png)
+![custom_style1](../cylinder_320.png)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 
