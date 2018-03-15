@@ -10,6 +10,15 @@ Image should reside in content/media.
 
 This technique is applied when original images are large but have to be embedded as small one to reduce page load time (e.g. in the context of image gallery).
 
+Materials used:
+
+* [Page resources.](https://gohugo.io/content-management/page-resources/)
+* [Image processing.](https://gohugo.io/content-management/image-processing/)
+* [Hugo resource image example.](https://github.com/talves/hugo-resource-images)
+* [Hugo image resize on Stack Overflow #1.](https://stackoverflow.com/questions/48063067/resize-image-in-hugo-v-0-32-x-in-markdown)
+* [Hugo image resize on Stack Overflow #2.](https://stackoverflow.com/questions/48213883/image-processing-outside-bundles/48215030#48215030)
+
+
 ### image-resize shortcode
 
 **Image resize with screwed aspect ratio**
