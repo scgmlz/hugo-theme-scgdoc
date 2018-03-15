@@ -2,7 +2,7 @@
 Our own gallery
 -->
 
-<div class="galleryscg tz-gallery">
+<div class="galleryscg {{ with .Get "class" }}{{.}}{{end}}">
     <div class="row">
       {{ .Inner }}
   </div>
