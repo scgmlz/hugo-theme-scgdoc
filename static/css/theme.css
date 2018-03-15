@@ -354,6 +354,10 @@ figure {
   overflow: hidden;
 }
 
+figcaption p {
+  margin: auto;
+}
+
 figure.center img{
   display: block;
   margin-left: auto;
