@@ -1,6 +1,7 @@
 {{ $imagename := .Get "src" }}
 {{ $command := .Get "command" }}
 {{ $options := .Get "options" }}
+{{ $caption := .Get "caption" }}
 
 {{ $original := .Page.Resources.GetMatch (printf "%s*" $imagename) }}
 
@@ -15,7 +16,10 @@
   {{ end }}
   {{ $image := .Scratch.Get "image" }}
   <figure style="width: {{ add $image.Width 3 }}px;">
-    <a href="{{ $original.RelPermalink }}">
-	    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+    <a href="{{ $original.RelPermalink }}" data-caption="{{ $caption}}" >
+	    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{$caption}}">
     </a>
+    <figcaption>
+      <p> {{- $caption -}} </p>
+    </figcaption>  
  </figure>   
