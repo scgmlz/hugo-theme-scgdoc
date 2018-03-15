@@ -17,7 +17,7 @@
   {{ $image := .Scratch.Get "image" }}
   <figure>
     <a class="lightbox" href="{{ $original.RelPermalink }}" data-caption="{{ $caption}}" >
-	    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{$caption}}">
+	    <img class="img-fluid" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{$caption}}">
     </a>
     <figcaption>
       <p> {{- $caption -}} </p>
