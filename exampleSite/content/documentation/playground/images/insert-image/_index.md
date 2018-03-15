@@ -1,6 +1,6 @@
 +++
 title = "Insert images"
-weight = 30
+weight = 10
 +++
 
 ### Insert images

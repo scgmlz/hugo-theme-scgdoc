@@ -1,6 +1,6 @@
 +++
 title = "Image gallery"
-weight = 31
+weight = 20
 +++
 
 ### Image gallery
