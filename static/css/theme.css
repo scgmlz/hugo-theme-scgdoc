@@ -326,7 +326,7 @@ div.post-page > *:last-child{
 img {max-width:100%;} 
 
 /* ------------------------------------------------------------- *
- * Hack to adjust images placed via default markdown syntax
+ * Images placed via standard markdown syntax
  * http://www.ebadf.net/2016/10/19/centering-images-in-hugo/
 /* ------------------------------------------------------------- */
 
@@ -346,22 +346,27 @@ img[src$='#floatright'] {
 }
 
 /* ------------------------------------------------------------- *
- * Tuning standard figure shortcode
+ * Images placed via standard figure shortcode
 /* ------------------------------------------------------------- */
+
+figure {
+  position:relative; /* to allow absolution positioning of figcaption */
+  overflow: hidden;
+}
 
 figure.center img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 figure.center, figure.floatleft figcaption{
-text-align: center;
+  text-align: center;
 }
 
 figure.floatleft {
   display: block;
-/*  padding-top: 10px;
-*/  padding-right: 15px;
+  padding-right: 15px;
   float: left;
 }
 

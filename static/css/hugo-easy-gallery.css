@@ -56,7 +56,7 @@ Transition styles
 /*
 figure styles
 */
-figure {
+.box figure {
     position:relative; /* purely to allow absolution positioning of figcaption */
     overflow: hidden;
 }
