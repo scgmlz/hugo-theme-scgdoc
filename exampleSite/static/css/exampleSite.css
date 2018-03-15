@@ -22,3 +22,17 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/* ------------------------------------------------------------- *
+ * Custom style for images inserted via standard markdown syntax
+ * see basic-insert.md
+/* ------------------------------------------------------------- */
+
+img[alt="custom_style1"]
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;  
+}
+

@@ -1,0 +1,7 @@
+{{ $original := .Page.Resources.GetMatch (printf "%s*" (.Get 0)) }}
+{{ $options := .Get 1 }}
+{{ with ($original.Resize $options) }}
+  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+{{ end }} 
+
+

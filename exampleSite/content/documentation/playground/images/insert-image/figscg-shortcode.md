@@ -1,6 +1,6 @@
 +++
 title = "Custom figscg shortcode"
-weight = 40
+weight = 30
 +++
 
 ### Custom figscg shortcode
@@ -54,41 +54,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 
-{{< figscg src="/img/cone6_1000.png" width="200px" class="floatleft" caption="My caption">}}
+{{< figscg src="/img/cone6_1000.png" width="200px" class="float-left" caption="My caption">}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 
-#### Two figures next to each other - quite limited
+#### Two figures next to each via float-left mechanism
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 
-{{< figscg src="/img/cone6_1000.png" width="200px" class="floatleft">}}
+{{< figscg src="/img/cone6_1000.png" width="200px" class="float-left">}}
 {{< figscg src="/img/cone6_1000.png" width="200px">}}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
-
-
-#### Two figures next to each other - via galleryscg shortcode
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
-
-{{< galleryscg >}}
-{{< figscg src="/img/cone6_1000.png" width="200px">}}
-{{< figscg src="/img/cone6_1000.png" width="200px">}}
-{{< /galleryscg >}}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
-
-
-#### Same with captions
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
-
-{{< galleryscg >}}
-{{< figscg src="/img/cone6_1000.png" width="200px" caption="A short caption">}}
-{{< figscg src="/img/cone6_1000.png" width="200px" caption="A short caption">}}
-{{< /galleryscg >}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 

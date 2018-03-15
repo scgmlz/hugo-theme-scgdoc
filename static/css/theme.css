@@ -277,16 +277,18 @@ div > ul ol, div > ol ol {
 /* ------------------------------------------------------------- */
 
 .breadcrumb {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 	font-size: 15px;
 }
 
 /* ------------------------------------------------------------- *
  *  Pagination
+ * - remove horizontal line after the last news item
+ * - vertical margin above paginator
 /* ------------------------------------------------------------- */
 
 div.post-page > *:last-child{
-  display: none; 
+  display: none;
 }
 
 .pagination {
@@ -316,54 +318,54 @@ div.post-page > *:last-child{
 }
 
 /* ------------------------------------------------------------- *
- * Hack to adjust images placed via default markdown syntax
+ *
+ * Images
+ *
+/* ------------------------------------------------------------- */
+
+img {max-width:100%;} 
+
+/* ------------------------------------------------------------- *
+ * Images placed via standard markdown syntax
  * http://www.ebadf.net/2016/10/19/centering-images-in-hugo/
 /* ------------------------------------------------------------- */
 
-img[src$='#center']
-{
-    display: block;
-    margin: 0.7rem auto;
-}
-
-img[src$='#floatleft']
-{
-    float:left;
-    margin: 0.7rem;
-}
-
-img[src$='#floatright']
-{
-    float:right;
-    margin: 0.7rem;
-}
-
-img[alt="my_style1"]
-{
+img[src$='#center'] {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;  
+  margin: 0.7rem auto;
+}
+
+img[src$='#floatleft'] {
+  float:left;
+  margin: 0.7rem;
+}
+
+img[src$='#floatright'] {
+  float:right;
+  margin: 0.7rem;
 }
 
 /* ------------------------------------------------------------- *
- * Tuning standard figure shortcode
+ * Images placed via standard figure shortcode
 /* ------------------------------------------------------------- */
+
+figure {
+  position:relative; /* to allow absolution positioning of figcaption */
+  overflow: hidden;
+}
 
 figure.center img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-figure.center, figure.floatleft figcaption{
-text-align: center;
+
+figure.center, figure.float-left figcaption{
+  text-align: center;
 }
 
-figure.floatleft {
-  display: block;
-/*  padding-top: 10px;
-*/  padding-right: 15px;
-  float: left;
+figure.float-left {
+  padding-right: 0.7rem;
 }
 
 /* ------------------------------------------------------------- *
