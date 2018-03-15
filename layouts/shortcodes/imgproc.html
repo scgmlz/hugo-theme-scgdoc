@@ -1,8 +1,8 @@
-{{ $imagename := (.Get 0) }}
-{{ $command := .Get 1 }}
-{{ $options := .Get 2 }}
+{{ $imagename := .Get "src" }}
+{{ $command := .Get "command" }}
+{{ $options := .Get "options" }}
 
-{{ $original := .Page.Resources.GetMatch (printf "%s*" (.Get 0)) }}
+{{ $original := .Page.Resources.GetMatch (printf "%s*" $imagename) }}
 
   {{ if eq $command "Fit"}}
     {{ .Scratch.Set "image" ($original.Fit $options) }}
