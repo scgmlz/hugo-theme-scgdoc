@@ -1,9 +1,9 @@
 +++
-title = "Allerts, notices and panels"
+title = "Allerts, notices and cards"
 weight = 60
 +++
 
-### Allerts, notices and panels
+### Allerts, notices and cards
 
 This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page.
 
@@ -69,16 +69,38 @@ A notice disclaimer
 A notice disclaimer
 {{% /notice %}}
 
-#### Panels
+#### Cards
 
-{{% panel %}}this is a panel text{{% /panel %}}
+See [Bootstrap cards](https://getbootstrap.com/docs/4.0/components/card/)
 
-{{% panel theme="info" header="panel title" %}}this is a panel text{{% /panel %}}
+<div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Warning card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
 
-{{% panel theme="success" header="panel title" %}}this is a panel text{{% /panel %}}
+<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
 
-{{% panel theme="warning" header="panel title" %}}this is a panel text{{% /panel %}}
+<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Dark card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
 
-{{% panel theme="danger" header="panel title" %}}this is a panel text{{% /panel %}}
-
-{{% panel footer="panel footer" %}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{% /panel %}}
+<div class="card border-secondary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body text-secondary">
+    <h5 class="card-title">Secondary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>

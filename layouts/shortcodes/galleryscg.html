@@ -2,8 +2,10 @@
 Our own gallery
 -->
 
-<div class="galleryscg">
-	{{ .Inner }}
+<div class="galleryscg {{ with .Get "class" }}{{.}}{{end}}">
+    <div class="row">
+      {{ .Inner }}
+  </div>
 </div>
 
 

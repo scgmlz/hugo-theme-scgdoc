@@ -354,6 +354,10 @@ figure {
   overflow: hidden;
 }
 
+figcaption p {
+  margin: auto;
+}
+
 figure.center img{
   display: block;
   margin-left: auto;
@@ -512,56 +516,57 @@ code {
 /* ------------------------------------------------------------- */
 
 div.notices {
-    margin: 2rem 0;
-    position: relative;
+  margin: 2rem 0;
+  position: relative;
 }
 div.notices p {
-    padding: 15px;
-    display: block;
-    font-size: 1rem;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    color: #666;
+  padding: 15px;
+  display: block;
+  font-size: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #666;
 }
 div.notices p:first-child:before {
-    position: absolute;
-    top: -27px;
-    color: #fff;
-    font-family: FontAwesome;
-    content: '';
-    left: 10px;
+  position: absolute;
+  top: -27px;
+  color: #fff;
+  font-family: FontAwesome;
+  content: '';
+  left: 10px;
 }
 div.notices p:first-child:after {
-    position: absolute;
-    top: -27px;
-    color: #fff;
-    left: 2rem;
+  position: absolute;
+  top: -27px;
+  color: #fff;
+  left: 2rem;
 }
 div.notices.info {
-    border-top: 30px solid #F0B37E;
-    background: #FFF2DB;
+  border-top: 30px solid #F0B37E;
+  background: #FFF2DB;
 }
 div.notices.info p:first-child:after {
-    content: 'Info';
+  content: 'Info';
 }
 div.notices.warning {
-    border-top: 30px solid rgba(217, 83, 79, 0.8);
-    background: #FAE2E2;
+  border-top: 30px solid rgba(217, 83, 79, 0.8);
+  background: #FAE2E2;
 }
 div.notices.warning p:first-child:after {
-    content: 'Warning';
+  content: 'Warning';
 }
 div.notices.note {
-    border-top: 30px solid #6AB0DE;
-    background: #E7F2FA;
+  border-top: 30px solid #6AB0DE;
+  background: #E7F2FA;
 }
 div.notices.note p:first-child:after {
-    content: 'Note';
+  content: 'Note';
 }
 div.notices.tip {
-    border-top: 30px solid rgba(92, 184, 92, 0.8);
-    background: #E6F9E6;
+  border-top: 30px solid rgba(92, 184, 92, 0.8);
+  background: #E6F9E6;
 }
 div.notices.tip p:first-child:after {
-    content: 'Tip';
+  content: 'Tip';
 }
+

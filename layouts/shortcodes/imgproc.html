@@ -15,11 +15,13 @@
     {{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
   {{ end }}
   {{ $image := .Scratch.Get "image" }}
-  <figure style="width: {{ add $image.Width 3 }}px;">
-    <a href="{{ $original.RelPermalink }}" data-caption="{{ $caption}}" >
-	    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{$caption}}">
+  <div class="col-sm-12 col-md-6">
+  <figure>
+    <a class="lightbox" href="{{ $original.RelPermalink }}" data-caption="{{ $caption}}" >
+	    <img class="img-fluid" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{$caption}}">
     </a>
     <figcaption>
       <p> {{- $caption -}} </p>
     </figcaption>  
  </figure>   
+</div>
