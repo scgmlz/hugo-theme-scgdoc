@@ -8,7 +8,7 @@ showresizedimages = true
 ### Media gallery
 
 This is a special gallery were source images are automatically resized on Hugo side
-to get gallery's thumbnails. Check frontmatter of this file which is not standard (`showimages=true`).
+to get gallery's thumbnails. Check frontmatter of this file (i.e. non standatd `showimages=true`).
 
 {{< galleryscg class="tz-gallery">}}
 {{< imgproc src="instrument-view.png" command="Resize" options="320x" caption="Instrument view" >}}
