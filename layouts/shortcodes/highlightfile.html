@@ -1,18 +1,35 @@
 <!--
-Highlight file, provide download link.
-File name should contain full path.
+Highlights file and provides download link.
+File should be located either in the same directory or full path should be specified.
 -->
 
+{{- $src := (.Get "file") -}}
 {{- $lang := .Get "language" | default ("python") }}
 {{- $opt := .Get "opt" | default ("linenos=table") }}
 
-{{- $filelink := (trim (.Get "file") "/static") -}}
-{{$file := .Get "file" | readFile}}
-{{ $justTheSplit := split $filelink "/" }}
-{{ $lastPartOnly := index (last 1 $justTheSplit) 0}}
+{{- if in $src "/" -}}
+  {{$file := $src | readFile}}
+  {{ highlight (print $file) $lang $opt}}
 
-{{ highlight (print $file) $lang $opt}}
-<a class="linktofile" href="{{ .Site.BaseURL }}/{{$filelink}}"/>
-    {{$lastPartOnly}}
+  {{ $filelink := (trim $src "/static") }}
+  {{ $justTheSplit := split $filelink "/" }}
+  {{ $lastPartOnly := index (last 1 $justTheSplit) 0}}
+
+  {{ .Scratch.Set "link" $filelink }}
+  {{ .Scratch.Set "linkname" $lastPartOnly }}
+
+{{- else -}}
+  {{ $file := (printf "%s%s" $.Page.File.Dir $src) }}
+  {{ highlight (readFile (printf "content/%s" $file)) $lang $opt}}
+  
+  {{ .Scratch.Set "link" $file }}
+  {{ .Scratch.Set "linkname" $src }}
+{{- end -}}
+
+{{ $link := .Scratch.Get "link" }}
+{{ $linkname := .Scratch.Get "linkname" }}
+<a class="linktofile" href="{{ .Site.BaseURL }}{{ $link }}"/>
+    {{ $linkname }}
 </a>
+
 

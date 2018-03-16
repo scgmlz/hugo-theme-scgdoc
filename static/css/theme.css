@@ -10,9 +10,7 @@ body {
 	line-height: 1.5em;
 	color: #404040
 }
-p {
-	margin: 15px 0px 15px 0px;
-}
+
 p a, li a {
 	text-decoration: none;
     color: #1982d1;
@@ -21,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 20px;
 	margin-bottom: 5px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 /* ------------------------------------------------------------- *
@@ -170,6 +168,11 @@ footer .copyright {
 }
 form .row:first-child .floating-label-form-group {
 	border-top: 1px solid #eee
+}
+
+/* social icons in the footer */
+li.social a {
+  color: #4c70a1;
 }
 
 /* ------------------------------------------------------------- *
@@ -387,20 +390,6 @@ figure.float-left {
 
 
 /* ------------------------------------------------------------- *
- * Tuning fancyfig shortcode
-/* ------------------------------------------------------------- */
-
-.box.alignment-center {
-    display: block;
-    margin: auto;
-}
-
-.box.alignment-center img{
-    display: block;
-    margin: auto;
-}
-
-/* ------------------------------------------------------------- *
  * Alert panels
 /* ------------------------------------------------------------- */
 
@@ -470,14 +459,11 @@ table.lntable td {
     width: auto;
 }
 
-td:nth-child(1) > pre.chroma { margin: 6px 0px; color: #aaa; border-radius: 0; border: none; border-right: solid 1px; word-wrap: normal;}
-td:nth-child(2) > pre.chroma { margin: 6px 0px; border-radius: 0; border: 0; word-wrap: normal;}
-.lntd { width: 100%; border: none; background-color: #F5F5F5;  table-layout: auto;}
-
-
 /* ------------------------------------------------------------- *
- * Inline code 
+ * Code highlight
 /* ------------------------------------------------------------- */
+
+/* Inline code */
 
 code {
   color: #550000;
@@ -486,30 +472,38 @@ code {
   font-family: monospace;
 }
 
-/* ------------------------------------------------------------- *
- * Highlight shortcode
-/* ------------------------------------------------------------- */
+/* code fence */
+
+pre code {
+  font-family: monospace;
+  font-size: 0.9rem;
+  line-height: 1.15rem;
+}
 
 .highlight { 
-	color: #333; 
 	border: none; 
-    border-radius: 4px;
-    margin-top: 20px;
-    margin-bottom: 10px; 
+  margin-top: 0;
+  margin-bottom: 1rem; 
+  line-height: 1.15rem;
 }
 
 .highlight pre {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0;
+  padding: 5px 0px 5px 5px;
   font-family: monospace;
-  font-size: 13px;
+  font-size: 0.9rem;
   background-color: #F5F5F5;
   overflow-x: auto;       /* this sets the scrolling in x */
+  border-radius: 4px;
 }
 
 .highlight pre code {
   white-space: pre;       /* forces <code> to respect <pre> formatting */
 }
+
+td:nth-child(1) > pre.chroma { margin: 5px 0px 5px 2px; color: #aaa; border-radius: 0; border: none; border-right: solid 1px; word-wrap: normal;}
+td:nth-child(2) > pre.chroma { margin: 5px 5px 5px 5px; border-radius: 0; border: 0; word-wrap: normal;}
+.lntd { width: 100%; border: none; background-color: #F5F5F5;  table-layout: auto;}
 
 /* ------------------------------------------------------------- *
  * Notices shortcode
