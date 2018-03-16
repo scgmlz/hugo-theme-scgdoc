@@ -387,20 +387,6 @@ figure.float-left {
 
 
 /* ------------------------------------------------------------- *
- * Tuning fancyfig shortcode
-/* ------------------------------------------------------------- */
-
-.box.alignment-center {
-    display: block;
-    margin: auto;
-}
-
-.box.alignment-center img{
-    display: block;
-    margin: auto;
-}
-
-/* ------------------------------------------------------------- *
  * Alert panels
 /* ------------------------------------------------------------- */
 
@@ -470,11 +456,6 @@ table.lntable td {
     width: auto;
 }
 
-td:nth-child(1) > pre.chroma { margin: 6px 0px; color: #aaa; border-radius: 0; border: none; border-right: solid 1px; word-wrap: normal;}
-td:nth-child(2) > pre.chroma { margin: 6px 0px; border-radius: 0; border: 0; word-wrap: normal;}
-.lntd { width: 100%; border: none; background-color: #F5F5F5;  table-layout: auto;}
-
-
 /* ------------------------------------------------------------- *
  * Inline code 
 /* ------------------------------------------------------------- */
@@ -510,6 +491,10 @@ code {
 .highlight pre code {
   white-space: pre;       /* forces <code> to respect <pre> formatting */
 }
+
+td:nth-child(1) > pre.chroma { margin: 6px 0px; color: #aaa; border-radius: 0; border: none; border-right: solid 1px; word-wrap: normal;}
+td:nth-child(2) > pre.chroma { margin: 6px 0px; border-radius: 0; border: 0; word-wrap: normal;}
+.lntd { width: 100%; border: none; background-color: #F5F5F5;  table-layout: auto;}
 
 /* ------------------------------------------------------------- *
  * Notices shortcode
