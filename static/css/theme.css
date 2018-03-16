@@ -170,6 +170,11 @@ form .row:first-child .floating-label-form-group {
 	border-top: 1px solid #eee
 }
 
+/* social icons in the footer */
+li.social a {
+  color: #4c70a1;
+}
+
 /* ------------------------------------------------------------- *
  *  Top navigation bar
 /* ------------------------------------------------------------- */
