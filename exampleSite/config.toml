@@ -23,6 +23,8 @@ PygmentsStyle = "vs"
   logo = "img/site-logo.png"
   Debug = false
 
+sectionPagesMenu = "main"
+
 [[params.social]]
     title = "github"
     url = "https://github.com/gamesbond"
@@ -38,14 +40,17 @@ PygmentsStyle = "vs"
 [[menu.main]]
   name = "Home"
   url = "/"
-  weight = -200
+  weight = 10
 
 [[menu.main]]
   name = "News"
+  identifier="post"
   url = "/post/"
-  weight = -190
+  weight = 20
 
 [[menu.main]]
   name = "Documentation"
+  identifier = "documentation"
   url = "/documentation/"
-  weight = -180
+  weight = 30
+
