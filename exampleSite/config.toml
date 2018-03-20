@@ -5,6 +5,7 @@ languageCode = "en-us"
 title = "ProjectName"
 MetaDataFormat = "toml"
 canonifyURLs = true
+sectionPagesMenu = "main"
 
 paginate = 5
 
@@ -23,7 +24,6 @@ PygmentsStyle = "vs"
   logo = "img/site-logo.png"
   Debug = false
 
-sectionPagesMenu = "main"
 
 [[params.social]]
     title = "github"
@@ -39,6 +39,7 @@ sectionPagesMenu = "main"
 
 [[menu.main]]
   name = "Home"
+  identifier="home"
   url = "/"
   weight = 10
 
