@@ -5,6 +5,7 @@ languageCode = "en-us"
 title = "ProjectName"
 MetaDataFormat = "toml"
 canonifyURLs = true
+sectionPagesMenu = "main"
 
 paginate = 5
 
@@ -23,6 +24,7 @@ PygmentsStyle = "vs"
   logo = "img/site-logo.png"
   Debug = false
 
+
 [[params.social]]
     title = "github"
     url = "https://github.com/gamesbond"
@@ -37,15 +39,19 @@ PygmentsStyle = "vs"
 
 [[menu.main]]
   name = "Home"
+  identifier="home"
   url = "/"
-  weight = -200
+  weight = 10
 
 [[menu.main]]
   name = "News"
+  identifier="post"
   url = "/post/"
-  weight = -190
+  weight = 20
 
 [[menu.main]]
   name = "Documentation"
+  identifier = "documentation"
   url = "/documentation/"
-  weight = -180
+  weight = 30
+
