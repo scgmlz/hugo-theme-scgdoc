@@ -4,4 +4,3 @@ $('.li-item-icon').click(function () {
   $( this ).parent().children('ul').toggle() ;
   return false;
 });
-
