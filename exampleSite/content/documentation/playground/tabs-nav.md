@@ -59,15 +59,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
 
 <!-- Tab panes -->
 <div class="tab-content id="myTab">
-  <div class="tab-pane active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
+  <div class="tab-pane fade active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
     <h5>Tab1 content</h5>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
   </div>
-  <div class="tab-pane" id="tab2" role="tabpanel" aria-labelledby="profile-tab">
+  <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="profile-tab">
     <h5>Tab2 content</h5>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
   </div>
-  <div class="tab-pane" id="tab3" role="tabpanel" aria-labelledby="messages-tab">
+  <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="messages-tab">
     <h5>Tab3 content</h5>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.  
   </div>
