@@ -13,7 +13,7 @@
   </div>
 </header>
 
-{{ if or (eq .Page.Type  "documentation") (.Page.Params.breadcrumb ) }}
+{{ if or (eq .Page.Type  "documentation") (eq .Page.Type  "post") (.Page.Params.breadcrumb ) }}
 <div class="breadcrumb">
   <div class="container">
     {{- template "breadcrumb" dict "page" . "value" .Title }}   
