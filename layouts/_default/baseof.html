@@ -1,8 +1,16 @@
 {{- partial "header_def.html" . }}
 
+{{ if .Page.Params.breadcrumb}}
+<div class="breadcrumb">
+  <div class="container">
+    {{- template "breadcrumb" dict "page" . "value" .Title }}   
+  </div>
+</div>
+{{end}}
+
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="col-md-12">
             {{ if .Site.Params.Debug}}theme/layout/_default/baseof.html{{end}}
             {{ block "main_body" . }}
             {{ end }}
@@ -11,3 +19,12 @@
     </div>
 
 {{- partial "footer.html" . }}
+
+{{define "breadcrumb"}}
+{{ if .page.Parent}}
+{{$value := (printf "<a href='%s'>%s</a> > %s" .page.Parent.URL .page.Parent.Title .value)}}
+{{- template "breadcrumb" dict "page" .page.Parent "value" $value }} 
+{{else}}
+ {{.value|safeHTML}}
+{{end}}
+{{end}}
