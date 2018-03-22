@@ -4,7 +4,7 @@ weight = 100
 +++
 
 ## Tabs navigation
-A page with information structured in accordion-manner. See [Boostrap Navs](https://getbootstrap.com/docs/4.0/components/navs/) for more details.
+A page with information structured in tabs manner. See [Boostrap Navs](https://getbootstrap.com/docs/4.0/components/navs/) for more details.
 
 ### Basic tabs
 
@@ -39,6 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
   </div>
 </div>
 
+<hr class="feature-divider">
 
 ### More styling in tabs
 
@@ -74,6 +75,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.  
   </div>
 </div>
+
+<hr class="feature-divider">
 
 ### Automatic detection of operation system
 
