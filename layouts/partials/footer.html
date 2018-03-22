@@ -34,15 +34,18 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="{{ .Site.BaseURL }}/js/bootstrap.min.css"></script>
-
+    <script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
+    <!-- Setting baguetteBox gallery -->
     <script src="{{ .Site.BaseURL }}/js/baguetteBox.min.js"></script>
     <script>
       baguetteBox.run('.galleryscg');
     </script>    
-    <!-- Custom Theme JavaScript -->
+    <!-- Custom user's JavaScript -->
     <script src="{{ .Site.BaseURL }}/js/theme.js"></script>
+    {{ range .Site.Params.custom_js -}}
+      <script src="{{ . | absURL }}"></script>
+    {{- end }}
+    <!-- Google analytics -->
     {{ template "_internal/google_analytics.html" . }}
-
 </body>
 </html>

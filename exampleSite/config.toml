@@ -21,6 +21,7 @@ PygmentsStyle = "vs"
   Author = "James Bond"
   email = "james.bond@gmail.com"
   custom_css = ["css/exampleSite.css"]
+  custom_js = ["js/exampleSite.js"]
   logo = "img/site-logo.png"
   Debug = false
 
