@@ -42,12 +42,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
 
 ### More styling in tabs
 
+Fade effect introduced here requires additional activation of first tab in `theme.js`.
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
 
 <!-- Nav tabs -->
 <ul class="nav nav-tabs nav-pills nav-fill" id="myTab2" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="home" aria-selected="true">Home</a>
+    <a class="nav-link" id="home-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="home" aria-selected="true">Home</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" id="profile-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
@@ -59,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
 
 <!-- Tab panes -->
 <div class="tab-content id="myTab2Content">
-  <div class="tab-pane fade active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
+  <div class="tab-pane fade in active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
     <h5>Tab1 content</h5>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
   </div>
@@ -73,7 +75,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
   </div>
 </div>
 
-
 ### Automatic detection of operation system
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
@@ -81,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
 <!-- Nav tabs -->
 <ul class="nav nav-tabs nav-pills nav-fill" id="myTab3" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#Windows" role="tab" aria-controls="home" aria-selected="true">Windows</a>
+    <a class="nav-link" id="home-tab" data-toggle="tab" href="#Windows" role="tab" aria-controls="home" aria-selected="true">Windows</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" id="profile-tab" data-toggle="tab" href="#MacOS" role="tab" aria-controls="profile" aria-selected="false">MacOS</a>
@@ -93,7 +94,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
 
 <!-- Tab panes -->
 <div class="tab-content id="myTab3Content">
-  <div class="tab-pane fade active" id="Windows" role="tabpanel" aria-labelledby="home-tab">
+  <div class="tab-pane fade in active" id="Windows" role="tabpanel" aria-labelledby="home-tab">
     <h5>Windows content</h5>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
   </div>
@@ -106,3 +107,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.  
   </div>
 </div>
+
