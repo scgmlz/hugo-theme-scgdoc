@@ -5,42 +5,16 @@ menu = "main"
 breadcrumb = true
 +++
 
-#### Useful links
+## About
 
-https://themes.gohugo.io/theme/greyshade/post/creating-a-new-theme/
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
 
+### Subheading h3
 
-https://discourse.gohugo.io/t/simple-deployment-to-gh-pages/5003
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
 
+### Subheading h4
 
-http://zackofalltrades.com/notes/2014/05/hugo-from-scratch/
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
 
-https://gohugo.io/variables/
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!
-
-#### Hugo resources
-
-* [Fantastic Gallery](https://www.liwen.id.au/heg/)
-
-#### Markup languages
-
-* [Mmark syntax](https://github.com/miekg/mmark/wiki/Syntax)
-* [Mmark on GitHub](https://github.com/miekg/mmark)
-
-#### Hugo themes to learn
-
-* [Clean blog](https://themes.gohugo.io/startbootstrap-clean-blog/)
-* [Docdoc theme](https://themes.gohugo.io/theme/docdock/)
-* [Academic theme](https://themes.gohugo.io/theme/academic/post/writing-markdown-latex/)
-
-#### Good looking documentation sites
-
-http://xvelopers.com/html/knowledge/Demo2/single.html
-https://electron.atom.io/
-
-Abstract backgrounds
-http://www.freepik.com/index.php?goto=2&searchform=1&k=abstract
-
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.
