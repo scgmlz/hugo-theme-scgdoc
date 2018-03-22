@@ -1,11 +1,5 @@
 {{- partial "header_def.html" . }}
 
-<div class="breadcrumb">
-  <div class="container">
-    {{- template "breadcrumb" dict "page" . "value" .Title }}   
-  </div>
-</div>
-
 <div class="container">
   <div class="row">
     <div class="col-md-8">
@@ -21,11 +15,3 @@
 
 {{- partial "footer.html" . }}
 
-{{define "breadcrumb"}}
-{{ if .page.Parent}}
-{{$value := (printf "<a href='%s'>%s</a> > %s" .page.Parent.URL .page.Parent.Title .value)}}
-{{- template "breadcrumb" dict "page" .page.Parent "value" $value }} 
-{{else}}
- {{.value|safeHTML}}
-{{end}}
-{{end}}
