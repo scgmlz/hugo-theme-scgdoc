@@ -1,34 +1,22 @@
-{{ partial "header_def.html" .}}
+{{ $layout := "col-lg-8 offset-lg-2" }}
 
-    <!-- Page Header -->
-    <header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/home-bg.jpg')">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-           <div class="site-heading">
-             <h1>{{ .Site.Title }}</h1>
-             <hr class="small">
-             <span class="subheading">{{ .Site.Title }}</span>
-           </div>
-         </div>
-       </div>
-     </div>
-    </header>
+{{- partial "header_page.html" (dict "currentNode" . "layout" $layout) }}
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-preview">
-          <p class="post-meta"><a href="{{ .Site.BaseURL }}">Index</a>
-            <br />
-          </p>
-        </div>
-        <div class="post-preview">
-          <p class="post-meta"><a href="{{ .Site.BaseURL }}/post/">Archives</a>
-            <br />
-          </p>
+<div class="container">
+  <div class="row">
+    <div class="{{ $layout }}">
+      <br>
+      <div class="card bg-light my-5 mx-auto text-center" style="max-width: 28rem;">
+        <div class="card-header">404.html</div>
+        <div class="card-body">
+          <h1 class="card-title">Page not found</h1>
+          <p class="card-text my-3"><h6>Looks like the page you are going to visit doesn't exist. Please check the URL and try your luck again.</h6></p>
+          <a href="{{ "/" | relURL }}" class="btn btn-secondary my-3">Take me Home</a>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-{{ partial "footer.html" .}}
+{{- partial "footer.html" . }}
+

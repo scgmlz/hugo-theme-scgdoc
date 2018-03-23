@@ -23,7 +23,7 @@ PygmentsStyle = "vs"
   custom_css = ["css/exampleSite.css"]
   custom_js = ["js/exampleSite.js"]
   logo = "img/site-logo.png"
-  Debug = false
+  Debug = true
 
 
 [[params.social]]
