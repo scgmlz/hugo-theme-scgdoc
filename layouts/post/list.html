@@ -1,9 +1,11 @@
-{{- partial "header_def.html" . }}
+{{ $layout := "col-lg-9 offset-lg-1" }}
+
+{{- partial "header_page.html" (dict "currentNode" . "layout" $layout) }}
 
     <!-- Main Content -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+        <div class="{{ $layout }}">
           <div class="post-page">
           {{ if .Site.Params.Debug}}theme/layout/post/list.html{{end}}
           {{ range .Paginator.Pages }}
