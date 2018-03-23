@@ -1,0 +1,25 @@
+<div class="d-flex flex-column">
+
+{{- range .Page.Pages }}
+<div class="card my-1">
+  <div class="card-body">
+
+    <div class="row">
+        {{ with .Resources.ByType "image" }}
+          {{ range . }} 
+          <div class="col">
+              <img class="img-fluid" src="{{ .RelPermalink }}" width="100px" height="px">
+            </div>
+            {{end}}
+      {{ end }}
+
+      <div class="col-8">
+          <h5 class="card-title"> {{ .Title }} </h5>
+      </div>
+    </div>
+  </div>
+</div>
+{{- end}}
+
+</div>
+
