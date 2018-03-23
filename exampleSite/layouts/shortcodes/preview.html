@@ -1,0 +1,6 @@
+{{- range .Page.Pages }}
+{{ .Title }}
+{{ with .Resources.ByType "image" }}
+{{ range . }} {{.Permalink}} {{end}}
+{{ end }}
+{{- end}}

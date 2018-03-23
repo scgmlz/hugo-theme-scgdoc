@@ -8,4 +8,4 @@ weight = 10
 
 Tutorial demonstrates, how to automatically generate cards for page's children.
 
-{{% children depth="1" %}}
+{{% preview %}}
