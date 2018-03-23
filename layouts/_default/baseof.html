@@ -1,8 +1,10 @@
-{{- partial "header_def.html" . }}
+{{ $layout := "col-lg-10 offset-lg-1" }}
+
+{{- partial "header_page.html" (dict "currentNode" . "layout" $layout) }}
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 offset-lg-1">
+        <div class="{{ $layout }}">
             {{ if .Site.Params.Debug}}theme/layout/_default/baseof.html{{end}}
             {{ block "main_body" . }}
             {{ end }}
