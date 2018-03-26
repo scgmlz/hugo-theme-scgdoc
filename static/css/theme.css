@@ -195,7 +195,7 @@ ul.doctree li {
 }
 
 ul.doctree li.active, ul.doctree li.active > a {
-    color: #1982d1; !important;
+    color: #1982d1 !important;
 }
 
 ul.doctree .liOpened:before {
