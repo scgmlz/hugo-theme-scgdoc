@@ -326,9 +326,8 @@ figure.float-left {
  * Tuning custom figscg and galleryscg shortcodes
 /* ------------------------------------------------------------- */
 .galleryscg {
-  width: 100%;
   text-align: center;
-  margin: 0rem 0rem 1rem 0rem;
+  margin: 0rem auto 1rem auto;
 }
 
 .galleryscg figure {
