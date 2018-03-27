@@ -525,3 +525,7 @@ div.notices.tip p:first-child:after {
   content: 'Tip';
 }
 
+
+/* .MathJax {
+  font-size: 90% !important;
+  } */

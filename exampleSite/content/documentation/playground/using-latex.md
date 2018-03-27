@@ -31,6 +31,12 @@ Lorem $ a\_{i} = b\_{i} + c\_{i} $ ipsum dolor sit $\chi^2$ amet, consectetur ad
 $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$
 Lorem ipsum dolor sit amet, consectetur $\sqrt{3x-1}+(1+x)^2$  adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
 
+#### Checking font sizes (typical number with units inline)
+
+* Layer is 2.5 nm  thick with a real refractive index n = 5 *10^-6.
+* Layer is $2.5~nm$  thick with a real refractive index $n = 5 \cdot 10^{-6}$.
+* Layer is $2.5~\textrm{nm}$  thick with a real refractive index $n = 5 \cdot 10^{-6}$.
+
 #### Latex showcase
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
