@@ -4,7 +4,7 @@ title = "Tenth post title"
 description = "Tenth post description"
 date = 2010-03-12T18:28:35+01:00
 draft = false
-authors = ["author"]
+authors = ["author2"]
 tags = ["Release"]
 categories = ["News"]
 +++

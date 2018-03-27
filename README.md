@@ -9,8 +9,21 @@ The theme was initially based on
 * [docDoc - Documentation theme for Hugo](https://themes.gohugo.io/docdock/)
 * [Startboostrap Clean Blog](https://themes.gohugo.io/startbootstrap-clean-blog/)
 
+## Key features
+
+* Minimum Hugo version v0.37
+* Bootstrap 4 dependent
+* Documentation page with automaticly generated breadcrumb and side navigation bar (collapse/expand functionality)
+* Page with posts with multi-author support
+* Various ways to insert images (galleries, responsivness, automatic resize)
+* Python code highlight
+
 ## Live demo
 See demo at [https://scgmlz.github.io/hugo-theme-scgdoc](https://scgmlz.github.io/hugo-theme-scgdoc/).
+
+## Sites using this theme
+
+* [BornAgain project documentation](https://scgmlz.github.io/BornAgain-website)
 
 ## CI Status
 

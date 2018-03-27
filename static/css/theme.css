@@ -95,16 +95,6 @@ hr.small {
 	margin-top: 60px;
 	font-weight: 700
 }
-.caption {
-	text-align: center;
-	font-size: 14px;
-	padding: 10px;
-	font-style: italic;
-	margin: 0;
-	display: block;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px
-}
 footer {
 	padding: 50px 0 65px
 }
@@ -313,11 +303,6 @@ img[src$='#floatright'] {
  * Images placed via standard figure shortcode
 /* ------------------------------------------------------------- */
 
-figure {
-  position:relative; /* to allow absolution positioning of figcaption */
-  overflow: hidden;
-}
-
 figcaption p {
   margin: auto;
 }
@@ -334,14 +319,15 @@ figure.center, figure.float-left figcaption{
 
 figure.float-left {
   padding-right: 0.7rem;
+  margin: 0rem 0rem 0.5rem 0rem;
 }
 
 /* ------------------------------------------------------------- *
  * Tuning custom figscg and galleryscg shortcodes
 /* ------------------------------------------------------------- */
 .galleryscg {
-  width: 100%;
   text-align: center;
+  margin: 0rem auto 1rem auto;
 }
 
 .galleryscg figure {
@@ -525,3 +511,7 @@ div.notices.tip p:first-child:after {
   content: 'Tip';
 }
 
+
+/* .MathJax {
+  font-size: 90% !important;
+  } */

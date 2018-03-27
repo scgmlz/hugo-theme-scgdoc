@@ -6,12 +6,13 @@ Posted
 {{ with .Params.authors }}
 by
   {{ range $i, $key :=  . }}
-    {{ $author := index $.Site.Params.authors $key }}
-    <a href="{{ $author.url}}">{{ $author.name}}</a>
-    {{- if or (eq $i 0) -}}
-    ,
+    {{- if (isset $.Site.Params.authors $key) }}
+      {{ $author := index $.Site.Params.authors $key }}
+        <a href="{{ $author.url}}">{{ $author.name}}</a>
+    {{else}}
+      {{ $key}}
     {{end}}
-
+    {{- if or (eq $i 0) -}},{{- end }}
   {{end}}
   
 {{end}}
