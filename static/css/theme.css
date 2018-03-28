@@ -213,6 +213,9 @@ ul.doctree .liSingle:before {
   margin: 0;
   padding:0;
 }
+.container .next-prev a {
+  color: #1982d1;
+}
 
 /* ------------------------------------------------------------- *
  *  Standard unordered and ordered lists
