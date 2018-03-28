@@ -6,7 +6,7 @@ weight = 20
 ### How to get started
 
 Here we explain how to start playing with [Hugo](https://gohugo.io) and 
-our [Scientific Computing Group Thema](https://github.com/scgmlz/scgdoc-hugo).
+our [Scientific Computing Group Thema](https://github.com/scgmlz/hugo-theme-scgdoc).
 
 
 #### Install Hugo
@@ -22,7 +22,7 @@ Our site repository contains two branches. `Master` branch contains the theme an
 Clone our site.
 
 ```
-$ git clone https://github.com/scgmlz/scgdoc-hugo.git
+$ git clone https://github.com/scgmlz/hugo-theme-scgdoc.git
 ```
 
 While being in `master` branch configure `public` directory to be a worktree for `gh-pages` branch (should be done only once). This step can be skipped when using the more classical approach of creating an extra clone.
@@ -46,7 +46,7 @@ $ cd <source>
 $ hugo server --disableFastRender
 ```
 
-Open web-browser using address Hugo will tell you (most probably http://localhost:1313/scgdoc-hugo/).
+Open web-browser using address Hugo will tell you (most probably http://localhost:1313/hugo-theme-scgdoc/).
 Modify `<source>/content/_index.md` and see updated landing page in a browser. Commit your changes.
 
 ```
@@ -69,7 +69,7 @@ cd public && git add --all && git commit -m "Publishing to gh-pages" && git push
 ```
 See details in [Deployment to gh-pages branch](https://discourse.gohugo.io/t/simple-deployment-to-gh-pages/5003)
 
-In few minutes, check [https://scgmlz.github.io/scgdoc-hugo/](https://scgmlz.github.io/scgdoc-hugo/) to see if your changes have been successfully published.
+In few minutes, check [https://scgmlz.github.io/scgdoc-hugo/](https://scgmlz.github.io/hugo-theme-scgdoc/) to see if your changes have been successfully published.
 
 ##### Using a local git clone
 

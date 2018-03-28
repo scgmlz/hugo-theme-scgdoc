@@ -1,6 +1,7 @@
 +++
 title = "Advanced techniques"
 weight = 37
+description = "Various advanced techniques."
 +++
 
 #### Advanced techniques
