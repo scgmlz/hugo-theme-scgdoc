@@ -7,6 +7,7 @@
       {{ if .Site.Params.Debug}}theme/layout/documentation/baseof.html{{end}}
       {{ block "main_body" . }}
       {{ end }}
+      {{ partial "next-prev-page.html" . }}
     </div>
     <div class="col-md-4">
       {{- partial "sidebar.html" . }}
