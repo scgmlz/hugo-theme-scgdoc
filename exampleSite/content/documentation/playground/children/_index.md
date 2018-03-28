@@ -1,6 +1,7 @@
 +++
 title = "Children shortcode"
 weight = 35
+description = "Shows how to include lists of children items in parent presentation."
 +++
 
 #### List of children

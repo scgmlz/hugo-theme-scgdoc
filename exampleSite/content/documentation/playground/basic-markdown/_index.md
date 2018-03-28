@@ -1,6 +1,7 @@
 +++
 title = "Basic markdown"
 weight = 10
+description = "Demonstrates basic markdown elements."
 +++
 
 ### Basic markdown 
