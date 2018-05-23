@@ -6,18 +6,15 @@
 
 body {
 	font-family: "Roboto",sans-serif;	
-	font-size: 16px;
-	line-height: 1.5em;
 	color: #404040
 }
 
 p a, li a {
 	text-decoration: none;
-    color: #1982d1;
+  color: #1982d1;
 }
+
 h1, h2, h3, h4, h5, h6 {
-	margin-top: 20px;
-	margin-bottom: 5px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
