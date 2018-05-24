@@ -1,0 +1,14 @@
+
+{{- $title := .Get "title" -}}
+{{- $id := .Get "id" -}}
+
+<p>
+<a class="btn btn-light" data-toggle="collapse" href="#{{ $id }}" role="button" aria-expanded="false" aria-controls="{{ $id }}">
+{{ $title }}
+</a>
+<div class="collapse" id="{{ $id }}">
+  <div class="card card-body">
+    {{.Inner}}
+  </div>
+</div>
+</p>
