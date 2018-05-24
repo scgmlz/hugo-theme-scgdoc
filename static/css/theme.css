@@ -465,7 +465,7 @@ td:nth-child(2) > pre.chroma { margin: 5px 5px 5px 5px; border-radius: 0; border
 /* ------------------------------------------------------------- */
 
 div.notices {
-  margin: 2rem 0;
+  margin-bottom: 1rem;
   position: relative;
 }
 div.notices p {
