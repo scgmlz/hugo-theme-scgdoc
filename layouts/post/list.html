@@ -8,6 +8,7 @@
         <div class="{{ $layout }}">
           <div class="post-page">
           {{ if .Site.Params.Debug}}theme/layout/post/list.html{{end}}
+          {{ .Content }}
           {{ range .Paginator.Pages }}
               {{ .Render "summary" }}
               <hr>
