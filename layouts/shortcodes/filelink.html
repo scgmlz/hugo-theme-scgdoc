@@ -8,7 +8,7 @@ or full path should be specified.
 {{- $nametoshow := (.Get "name") -}}
 
 {{- if in $src "/" -}}
-  {{ $filelink := (trim $src "/static") }}
+  {{ $filelink := (replaceRE "^[/]+static" "" $src) }}
   {{ .Scratch.Set "link" $filelink }}
 {{- else -}}
   {{ $filelink := (printf "%s%s" $.Page.File.Dir $src) }}
