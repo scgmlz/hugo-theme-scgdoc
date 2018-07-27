@@ -1,0 +1,21 @@
+<!--
+Provides a named download link for a file.
+File should be located either in the same directory
+or full path should be specified.
+-->
+
+{{- $src := (.Get "file") -}}
+{{- $nametoshow := (.Get "name") -}}
+
+{{- if in $src "/" -}}
+  {{ $filelink := (trim $src "/static") }}
+  {{ .Scratch.Set "link" $filelink }}
+{{- else -}}
+  {{ $filelink := (printf "%s%s" $.Page.File.Dir $src) }}
+  {{ .Scratch.Set "link" $filelink }}
+{{- end -}}
+
+{{ $link := .Scratch.Get "link" }}
+<a class="linktofile" href="{{ .Site.BaseURL }}{{ $link }}"/>
+    {{ $nametoshow }}
+</a>
