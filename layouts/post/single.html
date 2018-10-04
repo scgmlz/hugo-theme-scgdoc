@@ -1,4 +1,5 @@
 {{ define "main_body" }}
   {{ if .Site.Params.Debug}}theme/layout/post/single.html{{end}}
-	{{ .Content }}
+    {{ .Content }}
+    <p class = "float-right text-muted"> {{.Date.Format "January 2, 2006"}}   </p>
 {{ end }}
