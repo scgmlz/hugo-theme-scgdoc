@@ -11,7 +11,7 @@ File should be located either in the same directory or full path should be speci
   {{$file := $src | readFile}}
   {{ highlight (print $file) $lang $opt}}
 
-  {{ $filelink := (trim $src "/static") }}
+  {{ $filelink := (replaceRE "^[/]+static" "" $src) }}
   {{ $justTheSplit := split $filelink "/" }}
   {{ $lastPartOnly := index (last 1 $justTheSplit) 0}}
 
@@ -21,7 +21,7 @@ File should be located either in the same directory or full path should be speci
 {{- else -}}
   {{ $file := (printf "%s%s" $.Page.File.Dir $src) }}
   {{ highlight (readFile (printf "content/%s" $file)) $lang $opt}}
-  
+
   {{ .Scratch.Set "link" $file }}
   {{ .Scratch.Set "linkname" $src }}
 {{- end -}}
@@ -31,5 +31,3 @@ File should be located either in the same directory or full path should be speci
 <a class="linktofile" href="{{ .Site.BaseURL }}{{ $link }}"/>
     {{ $linkname }}
 </a>
-
-
