@@ -60,8 +60,6 @@ PygmentsStyle = "vs"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-[markup]
   [markup.tableOfContents]
     endLevel = 3
     ordered = false
