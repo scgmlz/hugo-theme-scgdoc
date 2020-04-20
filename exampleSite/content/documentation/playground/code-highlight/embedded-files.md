@@ -22,7 +22,7 @@ Shortcode provides link to the file for download.
 
 **File is located in static directory, full path should be specified.**
 
-{{% highlightfile file="/static/files/code_snippet.py" language="python" %}}
+{{< highlightfile file="/static/files/code_snippet.py" language="python" >}}
 
 **File is located in same directory. No path is required.**
 

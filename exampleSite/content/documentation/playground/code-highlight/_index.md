@@ -8,4 +8,4 @@ description = "Various possibilities for code highlight."
 
 Section demonstrates various possibilities for code highlighting.
 
-{{% children  %}}
+{{< children  >}}
