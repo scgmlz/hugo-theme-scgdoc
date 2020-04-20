@@ -56,3 +56,7 @@ PygmentsStyle = "vs"
   url = "/documentation/"
   weight = 30
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
