@@ -57,17 +57,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praes
 
 #### Notices
 
-{{% notice note %}}
+{{< notice note >}}
 A notice disclaimer
-{{% /notice %}}
+{{< /notice >}}
 
-{{% notice tip %}}
+{{< notice tip >}}
 A notice disclaimer
-{{% /notice %}}
+{{< /notice >}}
 
-{{% notice warning %}}
+{{< notice warning >}}
 A notice disclaimer
-{{% /notice %}}
+{{< /notice >}}
 
 #### Cards
 
