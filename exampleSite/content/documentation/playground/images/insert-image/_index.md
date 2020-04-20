@@ -7,4 +7,4 @@ weight = 10
 
 This tutorial explains, how to insert image in the text.
 
-{{% children  %}}
+{{< children  >}}

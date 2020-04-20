@@ -7,5 +7,5 @@ weight = 20
 
 This tutorial explains, how to make simple image galleries.
 
-{{% children  %}}
+{{< children  >}}
 

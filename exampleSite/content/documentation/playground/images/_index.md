@@ -8,5 +8,5 @@ description = "How to insert images in different context and make galleries."
 
 This tutorial explains, how to insert images and make galleries
 
-{{% children  %}}
+{{< children  >}}
 

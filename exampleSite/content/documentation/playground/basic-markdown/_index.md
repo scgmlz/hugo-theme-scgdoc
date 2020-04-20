@@ -8,4 +8,4 @@ description = "Demonstrates basic markdown elements."
 
 Section demonstrates basic markdown elements.
 
-{{% children  %}}
+{{< children  >}}
