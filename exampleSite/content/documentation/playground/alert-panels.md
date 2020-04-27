@@ -69,6 +69,10 @@ A notice disclaimer
 A notice disclaimer
 {{< /notice >}}
 
+{{< notice note >}}
+A notice with [link](https://www.google.com)
+{{< /notice >}}
+
 #### Cards
 
 See [Bootstrap cards](https://getbootstrap.com/docs/4.0/components/card/)
