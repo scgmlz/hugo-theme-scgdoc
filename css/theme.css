@@ -1,0 +1,524 @@
+/*!
+ * Clean Blog v1.0.5 (http://startbootstrap.com/template-overviews/clean-blog)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+	font-family: "Roboto",sans-serif;
+	color: #404040
+}
+
+p a, li a {
+	text-decoration: none;
+  color: #1982d1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------- *
+ *  Linking
+/* ------------------------------------------------------------- */
+
+a:hover, a:focus {
+	color: #0085a1
+}
+
+a.linktofile[href$='.py'] {
+  background: url("../img/save.png") no-repeat left;
+  padding-left: 25px;
+  white-space:nowrap;
+  color:#1982d1;
+}
+
+blockquote {
+	color: gray;
+	font-style: italic
+}
+hr.small {
+	max-width: 100px;
+	margin: 15px auto;
+	border-width: 4px;
+	border-color: #fff
+}
+
+.intro-header .post-heading, .intro-header .page-heading {
+	padding: 5px 0 50px;
+	color: #fff;
+	text-align: center
+}
+
+.post-preview>a {
+	color: #404040
+}
+.post-preview>a:hover, .post-preview>a:focus {
+	text-decoration: none;
+	color: #0085a1
+}
+.post-preview>a>.post-title {
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px
+}
+.post-preview>a>.post-subtitle {
+	margin: 0;
+	font-weight: 300;
+	margin-bottom: 10px
+}
+.post-preview>.post-meta {
+	color: gray;
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 0
+}
+.post-preview>.post-meta>a {
+	text-decoration: none;
+	color: #404040
+}
+.post-preview>.post-meta>a:hover, .post-preview>.post-meta>a:focus {
+	color: #0085a1;
+	text-decoration: underline
+}
+@media only screen and (min-width:768px) {
+	.post-preview>a>.post-title {
+		font-size: 25px
+	}
+}
+.section-heading {
+	font-size: 36px;
+	margin-top: 60px;
+	font-weight: 700
+}
+footer {
+	padding: 50px 0 65px
+}
+footer .list-inline {
+	margin: 0;
+	padding: 0
+}
+footer .copyright {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 0
+}
+
+/* social icons in the footer */
+li.social a {
+  color: #4c70a1;
+}
+
+/* ------------------------------------------------------------- *
+ *  Miscelaneous styling
+/* ------------------------------------------------------------- */
+
+hr.feature-divider {
+  margin: 3rem auto 3rem auto;
+  max-width: 200px;
+}
+
+/* ------------------------------------------------------------- *
+ *  Top navigation bar
+/* ------------------------------------------------------------- */
+
+.hero {
+    background: url("../img/site-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    background: transparent !important;
+    padding-left: 0px;
+}
+
+a.navbar-brand {
+    font-size: 24px;
+    color:   #cecece !important;
+    letter-spacing: 3px;
+    white-space:nowrap;
+  }
+
+a.navbar-brand img {
+    vertical-align:middle !important;
+    height:48px
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+/* ------------------------------------------------------------- *
+ *  Item list for documentation menubar
+/* ------------------------------------------------------------- */
+
+.dd-item a {
+	text-decoration: none;
+    color: #404040;
+  	font-size: 16px;
+
+}
+
+ul.doctree ul {
+    display: none;
+}
+
+ul.doctree li.parent > ul, li.active > ul {
+    display: block;
+}
+
+ul.doctree, ul.doctree ul {
+	padding:none;
+}
+
+ul.doctree li {
+    list-style: none;
+	padding-left: 0.5em;
+	color: #404040;
+}
+
+ul.doctree li.active, ul.doctree li.active > a {
+    color: #1982d1 !important;
+}
+
+ul.doctree .liOpened:before {
+	cursor: pointer;
+	content: '\f147';
+	margin-right: .20em
+}
+
+ul.doctree .liClosed:before {
+	cursor: pointer;
+	content: '\f196';
+	margin-right: .2em
+}
+
+ul.doctree .liSingle:before {
+	cursor: pointer;
+	content: '\25E6';
+	margin-right: .2em
+}
+
+/* ------------------------------------------------------------- *
+ *  next-prev widget in documentation
+/* ------------------------------------------------------------- */
+.container .next-prev {
+  margin: 0;
+  padding:0;
+}
+.container .next-prev a {
+  color: #1982d1;
+}
+
+/* ------------------------------------------------------------- *
+ *  Standard unordered and ordered lists
+/* ------------------------------------------------------------- */
+
+div > ul, div > ol {
+    padding-left: 1.0em;
+}
+
+div > ul ul, div > ol ul {
+    padding-left: 1.0em;
+}
+
+div > ul ol, div > ol ol {
+    padding-left: 1.0em;
+}
+
+/* ------------------------------------------------------------- *
+ *  breadcrumb
+/* ------------------------------------------------------------- */
+
+.breadcrumb {
+  margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.breadcrumb a {
+	color: #404040
+}
+
+/* ------------------------------------------------------------- *
+ *  Pagination
+ * - remove horizontal line after the last news item
+ * - vertical margin above paginator
+/* ------------------------------------------------------------- */
+
+div.post-page > *:last-child{
+  display: none;
+}
+
+.pagination {
+  margin-top: 2rem;
+}
+
+/* ------------------------------------------------------------- *
+ *  Table of page's content
+ *  (see discussion https://github.com/gohugoio/hugo/issues/1778)
+/* ------------------------------------------------------------- */
+
+#TableOfContents > ul {
+	list-style: none;
+    padding-left: 0em
+}
+
+#TableOfContents > ul  > li {
+    list-style: none;
+}
+
+#TableOfContents > ul  > li > ul {
+    padding-left: 1.0em
+}
+
+#TableOfContents > ul  > li > ul > li > ul{
+    padding-left: 1.0em
+}
+
+/* ------------------------------------------------------------- *
+ *
+ * Images
+ *
+/* ------------------------------------------------------------- */
+
+img {max-width:100%;}
+
+/* ------------------------------------------------------------- *
+ * Images placed via standard markdown syntax
+ * http://www.ebadf.net/2016/10/19/centering-images-in-hugo/
+/* ------------------------------------------------------------- */
+
+img[src$='#center'] {
+  display: block;
+  margin: 0.7rem auto;
+}
+
+img[src$='#floatleft'] {
+  float:left;
+  margin: 0.7rem;
+}
+
+img[src$='#floatright'] {
+  float:right;
+  margin: 0.7rem;
+}
+
+/* ------------------------------------------------------------- *
+ * Images placed via standard figure shortcode
+/* ------------------------------------------------------------- */
+
+figcaption p {
+  margin: auto;
+}
+
+figure.center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure.center, figure.float-left figcaption{
+  text-align: center;
+}
+
+figure.float-left {
+  padding-right: 0.7rem;
+  margin: 0rem 0rem 0.5rem 0rem;
+}
+
+/* ------------------------------------------------------------- *
+ * Tuning custom figscg and galleryscg shortcodes
+/* ------------------------------------------------------------- */
+.galleryscg {
+  text-align: center;
+  margin: 0rem auto 1rem auto;
+}
+
+.galleryscg figure {
+  margin: 0px 10px 0px 10px;
+  display: inline-block;
+}
+
+
+/* ------------------------------------------------------------- *
+ * Alert panels
+/* ------------------------------------------------------------- */
+
+/* .alert {
+	padding: 10px 15px 10px 15px;
+	margin-top:20px;
+}
+
+.alert > p, .alert > ul {
+    margin-bottom: 0;
+    margin-top: 0;
+} */
+
+/* ------------------------------------------------------------- *
+ * Children shortcode
+/* ------------------------------------------------------------- */
+
+.children a{
+    color: #1982d1;
+}
+
+.children p {
+    font-size: small;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom:  0px;
+    padding-bottom: 0px;
+}
+.children-li p {
+    font-size: small;
+    font-style: italic;
+
+}
+.children-h2 p, .children-h3 p {
+    font-size: small;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom:  0px;
+    padding-bottom: 0px;
+}
+.children h3,.children h2 {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+/* ------------------------------------------------------------- *
+ * Tables
+/* ------------------------------------------------------------- */
+
+table {
+	width: 100%;
+    border: 1px solid #eaeaea;
+    table-layout: auto;
+}
+
+th {
+    background: #f7f7f7;
+    padding: 0.5rem;
+}
+
+td {
+    padding: 0.5rem;
+    border: 1px solid #eaeaea;
+}
+
+table.lntable td {
+    width: auto;
+}
+
+/* ------------------------------------------------------------- *
+ * Code highlight
+/* ------------------------------------------------------------- */
+
+code {
+  color: #330000;
+  background-color: inherit;
+  font-size: 0.9rem;
+  font-family: monospace;
+}
+
+/* code fence */
+
+pre code {
+  color: #330000;
+  font-family: monospace;
+  font-size: 0.9rem;
+  line-height: 1.15rem;
+}
+
+.highlight {
+	border: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.15rem;
+}
+
+.highlight pre {
+  margin: 0;
+  padding: 5px 0px 5px 5px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  background-color: #F5F5F5;
+  overflow-x: auto;       /* this sets the scrolling in x */
+  border-radius: 4px;
+}
+
+.highlight pre code {
+  white-space: pre;       /* forces <code> to respect <pre> formatting */
+}
+
+td:nth-child(1) > pre.chroma { margin: 5px 0px 5px 2px; color: #aaa; border-radius: 0; border: none; border-right: solid 1px; word-wrap: normal;}
+td:nth-child(2) > pre.chroma { margin: 5px 5px 5px 5px; border-radius: 0; border: 0; word-wrap: normal;}
+.lntd { width: 100%; border: none; background-color: #F5F5F5;  table-layout: auto;}
+
+/* ------------------------------------------------------------- *
+ * Notices shortcode
+/* ------------------------------------------------------------- */
+
+div.notices {
+  margin-bottom: 1rem;
+  position: relative;
+}
+div.notices p {
+  padding: 15px;
+  display: block;
+  font-size: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #666;
+}
+div.notices p:first-child:before {
+  position: absolute;
+  top: -27px;
+  color: #fff;
+  font-family: FontAwesome;
+  content: '';
+  left: 10px;
+}
+div.notices p:first-child:after {
+  position: absolute;
+  top: -27px;
+  color: #fff;
+  left: 2rem;
+}
+div.notices.info {
+  border-top: 30px solid #F0B37E;
+  background: #FFF2DB;
+}
+div.notices.info p:first-child:after {
+  content: 'Info';
+}
+div.notices.warning {
+  border-top: 30px solid rgba(217, 83, 79, 0.8);
+  background: #FAE2E2;
+}
+div.notices.warning p:first-child:after {
+  content: 'Warning';
+}
+div.notices.note {
+  border-top: 30px solid #6AB0DE;
+  background: #E7F2FA;
+}
+div.notices.note p:first-child:after {
+  content: 'Note';
+}
+div.notices.tip {
+  border-top: 30px solid rgba(92, 184, 92, 0.8);
+  background: #E6F9E6;
+}
+div.notices.tip p:first-child:after {
+  content: 'Tip';
+}
+
+
+/* .MathJax {
+  font-size: 90% !important;
+  } */

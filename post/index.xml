@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on ProjectName</title>
+    <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/</link>
+    <description>Recent content in News on ProjectName</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Mar 2012 18:28:35 +0100</lastBuildDate>
+    
+	<atom:link href="https://scgmlz.github.io/hugo-theme-scgdoc/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twelfth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-12/</link>
+      <pubDate>Mon, 12 Mar 2012 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-12/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Eleventh post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-11/</link>
+      <pubDate>Sat, 12 Mar 2011 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-11/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Tenth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-10/</link>
+      <pubDate>Fri, 12 Mar 2010 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-10/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Ninth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-09/</link>
+      <pubDate>Thu, 12 Mar 2009 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-09/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Eighth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-08/</link>
+      <pubDate>Wed, 12 Mar 2008 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-08/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Seventh post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-07/</link>
+      <pubDate>Mon, 12 Mar 2007 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-07/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Sixth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-06/</link>
+      <pubDate>Sun, 12 Mar 2006 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-06/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Fifth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-05/</link>
+      <pubDate>Sat, 12 Mar 2005 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-05/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Forth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-04/</link>
+      <pubDate>Fri, 12 Mar 2004 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-04/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Third post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-03/</link>
+      <pubDate>Wed, 12 Mar 2003 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-03/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Second post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-02/</link>
+      <pubDate>Tue, 12 Mar 2002 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-02/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>First post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-01/</link>
+      <pubDate>Mon, 12 Mar 2001 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-01/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+/* ------------------------------------------------------------- *
+ *  Landing page styling
+/* ------------------------------------------------------------- */
+  
+.btn-group-lg > .btn, .btn-lg {
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.bd-text-purple-bright {
+    color: #2a6783;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 3px;
+}
+
+.page-brand {
+    background-color: #f6f8f8;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* ------------------------------------------------------------- *
+ * Custom style for images inserted via standard markdown syntax
+ * see basic-insert.md
+/* ------------------------------------------------------------- */
+
+img[alt="custom_style1"]
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;  
+}
+

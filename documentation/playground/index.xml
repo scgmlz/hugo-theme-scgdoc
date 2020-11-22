@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playground on ProjectName</title>
+    <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/</link>
+    <description>Recent content in Playground on ProjectName</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Latex</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/using-latex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/using-latex/</guid>
+      <description>Using Latex Implemented using Setting MathJax with Hugo 
+Some formula surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</description>
+    </item>
+    
+    <item>
+      <title>Allerts, notices and cards</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/alert-panels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/alert-panels/</guid>
+      <description>Allerts, notices and cards This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page.
+Info alert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+this is a text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
+    </item>
+    
+    <item>
+      <title>Action buttons</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/buttons/</guid>
+      <description>Action buttons Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)
+Buttons: success, info etc&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+ go to google  Success  Info  Warning  Danger !  Danger !  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Labels and icons</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/labels-and-icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/labels-and-icons/</guid>
+      <description>Labels and icons Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.
+Icons from font awesome library in the text Lorem  ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+Icons from font awesome library in the list   fa-camera-retro  fa-align-justify  fa-save  fa-scissors  fa-forward  </description>
+    </item>
+    
+    <item>
+      <title>Tabs navigation</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/tabs-nav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/tabs-nav/</guid>
+      <description>Tabs navigation A page with information structured in tabs manner. See Boostrap Navs for more details.
+Basic tabs Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+Home  Profile  Messages   Home content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
+    </item>
+    
+    <item>
+      <title>Collaps expand</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/collapse-expand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/collapse-expand/</guid>
+      <description>Collapsed text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+ More options  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.   Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Youtube and staff</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/video/</guid>
+      <description>Youtube and staff Tutorial explains how to embed video.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
+    </item>
+    
+  </channel>
+</rss>

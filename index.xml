@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on ProjectName</title>
+    <link>https://scgmlz.github.io/hugo-theme-scgdoc/</link>
+    <description>Recent content in Home on ProjectName</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 May 2015 18:51:50 +0200</lastBuildDate>
+    
+	<atom:link href="https://scgmlz.github.io/hugo-theme-scgdoc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic highlight</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/code-highlight/basic-highlight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/code-highlight/basic-highlight/</guid>
+      <description>Basic highlight This tutorial explains, how to insert Python snippets in the text with and without line numbering.
+Simple code fence Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
+    </item>
+    
+    <item>
+      <title>Child1</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
+    </item>
+    
+    <item>
+      <title>Cylinders in Distorted Wave Born Approximation</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/advanced/children-preview/child1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/advanced/children-preview/child1/</guid>
+      <description>Cylinders in Distorted Wave Born Approximation Scattering from a monodisperse distribution of cylindrical particles using the Distorted Wave Born Approxiamtion (DWBA).
+  Real-space model
+    Intensity image
+    </description>
+    </item>
+    
+    <item>
+      <title>Grandchild1</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child3/grandchild1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child3/grandchild1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
+    </item>
+    
+    <item>
+      <title>Grandchild2</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child3/grandchild2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child3/grandchild2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
+    </item>
+    
+    <item>
+      <title>Insert via markdown</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/basic-insert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/basic-insert/</guid>
+      <description>Insert via markdown From static directory Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+From local directory Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/overview/</guid>
+      <description>Overview Prototype of the documentation site made with Hugo and Bootstrap. The documentation theme is called hugo-theme-scgdoc and is supported by the Scientific Computing Group at MLZ. The theme is heavilly based on following projects
+ hugo-theme-learn - Documentation theme for Hugo docDoc - Documentation theme for Hugo Startboostrap Clean Blog  Site layout This theme expects a standard Hugo blog/personal site layout:
+. └── content ├── posts | ├── release-1.</description>
+    </item>
+    
+    <item>
+      <title>Paragraphs and headers</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/headers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/headers/</guid>
+      <description>Paragraphs and headers Page demonstrates basic text elements of markdown. We are interested here in size of headers, spaces between text elements, etc. The content of this page is shown via shortcode.
+   Paragraphs and headers     Introduction h2  Subheading h3 Another Subheading h3     Welcome h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
+    </item>
+    
+    <item>
+      <title>Simple gallery with galleryscg shortcode</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/galleryscg-shortcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/galleryscg-shortcode/</guid>
+      <description>Two figures next to each other Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Child2</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
+    </item>
+    
+    <item>
+      <title>Custom Form Factor</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/advanced/children-preview/child2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/advanced/children-preview/child2/</guid>
+      <description>Custom Form Factor   Real-space model
+    Intensity image
+    </description>
+    </item>
+    
+    <item>
+      <title>Emphasis</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/emphasis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/emphasis/</guid>
+      <description>Emphasis and Strikethrough Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+ This text will be italic This will also be italic This text will be bold This will also be bold You can combine them Strikethrough  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
+    </item>
+    
+    <item>
+      <title>Get started</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/getstarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/getstarted/</guid>
+      <description>How to get started Here we explain how to start playing with Hugo and our Scientific Computing Group Thema.
+Install Hugo  Downloads latest hugo from here. Archive will contain single binary which you will have to put to your $HOME/bin directory, for example  Cloning our site Our site repository contains two branches. Master branch contains the theme and markdown content of the site. gh-pages branch contains generated html.</description>
+    </item>
+    
+    <item>
+      <title>Python code embedded</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/code-highlight/embedded-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/code-highlight/embedded-files/</guid>
+      <description>Python code embedded This tutorial explains how to embed Python code from a script, located in certain directory.
+Highlight the file Approach demonstrates that highlight shortcode can be combined with readfile shortcode. File can be located in any directory, full path (starting from repo directory) should be specified.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26  import sys import numpy class Base:  &amp;#34;&amp;#34;&amp;#34; Base class &amp;#34;&amp;#34;&amp;#34; def __init__(self): self.</description>
+    </item>
+    
+    <item>
+      <title>Standard figure shortcode</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/figure-shortcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/figure-shortcode/</guid>
+      <description>Standard figure shortcode Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+With caption Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Custom figscg shortcode</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/figscg-shortcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/figscg-shortcode/</guid>
+      <description>Custom figscg shortcode Default insert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
+    </item>
+    
+    <item>
+      <title>List elements</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/list-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/list-elements/</guid>
+      <description>List elements Page demonstrates basic list elements. We are interested here in list identation, spaces between list and paragraphs etc.
+Unordered list  item 1 item 2  Another item Another item Another item   item 3 item 4  Ordered list  Item 1 Item 2 Item 3  Item 3a Item 3b    Paragraph in section to compare gaps against lists Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Media gallery</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/media-gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/media-gallery/</guid>
+      <description>Media gallery This is a special gallery were source images are automatically resized on Hugo side to get gallery&amp;rsquo;s thumbnails. Check frontmatter of this file (i.e. non standatd showimages=true).
+   Instrument view
+      Sample view
+      Job view
+      Projections view
+      Mask editor
+      Fit view</description>
+    </item>
+    
+    <item>
+      <title>Child4</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</description>
+    </item>
+    
+    <item>
+      <title>Table elements</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/table-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/table-elements/</guid>
+      <description>Table elements Page demonstrates basic table elements and their appearance in difference context.
+Table surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+   Algorithm Description     algo1 Lorem ipsum dolor sit amet, consectetur adipiscing elit   algo2 Lorem ipsum dolor sit amet    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Link elements</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/link-elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/link-elements/</guid>
+      <description>Link elements External and internal links in various context.
+External link in paragraph context Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+Just a lot of text to test anchors Lorem ipsum dolor sit amet, ridens verterem ea nec, quas ferri veniam vix ei. Modo postea appetere ius et, viris dolore mei eu.</description>
+    </item>
+    
+    <item>
+      <title>Resource image</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/resource-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/resource-images/</guid>
+      <description>Resource image Tutorial demonstrates how to resize an image on Hugo site before inserting it in html.
+This technique is applied when original images are large but have to be embedded as small one to reduce page load time (e.g. in the context of image gallery).
+Materials used:
+ Page resources. Image processing. Hugo resource image example. Hugo image resize on Stack Overflow #1. Hugo image resize on Stack Overflow #2.</description>
+    </item>
+    
+    <item>
+      <title>Using Latex</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/using-latex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/using-latex/</guid>
+      <description>Using Latex Implemented using Setting MathJax with Hugo 
+Some formula surrounded by text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</description>
+    </item>
+    
+    <item>
+      <title>Allerts, notices and cards</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/alert-panels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/alert-panels/</guid>
+      <description>Allerts, notices and cards This tutorial demonstrates, how to insert various alerts, colored boxes etc to highlight information on a page.
+Info alert Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+this is a text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
+    </item>
+    
+    <item>
+      <title>Action buttons</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/buttons/</guid>
+      <description>Action buttons Tutorial demonstrates, how to insert action buttons (i.e. links to travis builds, &amp;ldquo;follow me&amp;rdquo; etc)
+Buttons: success, info etc&amp;hellip; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+ go to google  Success  Info  Warning  Danger !  Danger !  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Labels and icons</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/labels-and-icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/labels-and-icons/</guid>
+      <description>Labels and icons Tutorial demonstrates, how to insert labels (like &amp;ldquo;new&amp;rdquo;, &amp;ldquo;updated&amp;rdquo;) to the text; place small glypicons.
+Icons from font awesome library in the text Lorem  ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+Icons from font awesome library in the list   fa-camera-retro  fa-align-justify  fa-save  fa-scissors  fa-forward  </description>
+    </item>
+    
+    <item>
+      <title>Tabs navigation</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/tabs-nav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/tabs-nav/</guid>
+      <description>Tabs navigation A page with information structured in tabs manner. See Boostrap Navs for more details.
+Basic tabs Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+Home  Profile  Messages   Home content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</description>
+    </item>
+    
+    <item>
+      <title>Collaps expand</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/collapse-expand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/collapse-expand/</guid>
+      <description>Collapsed text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+ More options  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.   Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Youtube and staff</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/video/</guid>
+      <description>Youtube and staff Tutorial explains how to embed video.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/about/</link>
+      <pubDate>Sun, 24 May 2015 18:51:50 +0200</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/about/</guid>
+      <description>About Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+Subheading h3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</description>
+    </item>
+    
+    <item>
+      <title>Twelfth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-12/</link>
+      <pubDate>Mon, 12 Mar 2012 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-12/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Eleventh post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-11/</link>
+      <pubDate>Sat, 12 Mar 2011 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-11/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Tenth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-10/</link>
+      <pubDate>Fri, 12 Mar 2010 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-10/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Ninth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-09/</link>
+      <pubDate>Thu, 12 Mar 2009 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-09/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Eighth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-08/</link>
+      <pubDate>Wed, 12 Mar 2008 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-08/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Seventh post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-07/</link>
+      <pubDate>Mon, 12 Mar 2007 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-07/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Sixth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-06/</link>
+      <pubDate>Sun, 12 Mar 2006 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-06/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Fifth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-05/</link>
+      <pubDate>Sat, 12 Mar 2005 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-05/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Forth post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-04/</link>
+      <pubDate>Fri, 12 Mar 2004 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-04/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Third post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-03/</link>
+      <pubDate>Wed, 12 Mar 2003 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-03/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>Second post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-02/</link>
+      <pubDate>Tue, 12 Mar 2002 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-02/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+    <item>
+      <title>First post title</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-01/</link>
+      <pubDate>Mon, 12 Mar 2001 18:28:35 +0100</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/post/post-01/</guid>
+      <description>Headline Text</description>
+    </item>
+    
+  </channel>
+</rss>

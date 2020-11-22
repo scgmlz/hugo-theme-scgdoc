@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image gallery on ProjectName</title>
+    <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/</link>
+    <description>Recent content in Image gallery on ProjectName</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simple gallery with galleryscg shortcode</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/galleryscg-shortcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/galleryscg-shortcode/</guid>
+      <description>Two figures next to each other Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Media gallery</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/media-gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/media-gallery/</guid>
+      <description>Media gallery This is a special gallery were source images are automatically resized on Hugo side to get gallery&amp;rsquo;s thumbnails. Check frontmatter of this file (i.e. non standatd showimages=true).
+   Instrument view
+      Sample view
+      Job view
+      Projections view
+      Mask editor
+      Fit view</description>
+    </item>
+    
+  </channel>
+</rss>

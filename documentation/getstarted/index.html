@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Get started -- ProjectName</title>
+<link rel="icon" href="https://scgmlz.github.io/hugo-theme-scgdoc/bornagain-logo.png">
+
+
+<link href="https://scgmlz.github.io/hugo-theme-scgdoc//css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://scgmlz.github.io/hugo-theme-scgdoc//css/theme.css" rel="stylesheet">
+
+<link href="https://scgmlz.github.io/hugo-theme-scgdoc//css/mathjax-style.css" rel="stylesheet">
+
+<link href="https://scgmlz.github.io/hugo-theme-scgdoc//css/vs.css" rel="stylesheet">
+
+<link href="https://scgmlz.github.io/hugo-theme-scgdoc//css/baguetteBox.min.css" rel="stylesheet">
+<link href="https://scgmlz.github.io/hugo-theme-scgdoc//css/gallery-grid.css" rel="stylesheet">
+
+<link href="https://scgmlz.github.io/hugo-theme-scgdoc/css/exampleSite.css" rel="stylesheet">
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel='stylesheet'  type='text/css'>
+<script type="text/javascript" id="MathJax-script" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+   MathJax.Hub.Config({
+     showProcessingMessages: false,
+     messageStyle: "none",
+     tex2jax: {
+       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+       processEscapes: true
+     },
+     TeX: {
+       MultLineWidth: "100%",
+       equationNumbers: { autoNumber: "AMS" }
+     },
+     "HTML-CSS": { fonts: ["Latin-Modern"] }
+   });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+    var TEX = MathJax.InputJax.TeX;
+    var PREFILTER = TEX.prefilterMath;
+    TEX.Augment({
+      prefilterMath: function (math,displaymode,script) {
+        if (!displaymode) {math = "\\small{"+math+"}"}
+        return PREFILTER.call(TEX,math,displaymode,script);
+      }
+    });
+  });
+  </script>
+
+</head>
+
+
+  <body>
+    <header class="hero overlay"><div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-primary">
+    <a class="navbar-brand" href="https://scgmlz.github.io/hugo-theme-scgdoc/">
+        <img src="https://scgmlz.github.io/hugo-theme-scgdoc/img/site-logo.png" class="d-inline-block align-top" alt="">
+        ProjectName
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        
+        
+          <li class="nav-item "> <a class="nav-link" href="https://scgmlz.github.io/hugo-theme-scgdoc/">Home</a></li>
+        
+          <li class="nav-item "> <a class="nav-link" href="https://scgmlz.github.io/hugo-theme-scgdoc/post/">News</a></li>
+        
+          <li class="nav-item active"> <a class="nav-link" href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/">Documentation</a></li>
+        
+          <li class="nav-item "> <a class="nav-link" href="https://scgmlz.github.io/hugo-theme-scgdoc/about/">About</a></li>
+          
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/gamesbond" target="_blank" rel="noopener" aria-label="GitHub">
+              <span class="fa fa-github fa-2x"></span>
+            </a>
+          </li>        
+        
+      </ul>
+    </div>
+  </nav>
+</div>
+  
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12"> <br></div>
+        </div>
+      </div>
+    </header>
+
+    
+  <div class="breadcrumb">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+
+
+
+
+ <a href='https://scgmlz.github.io/hugo-theme-scgdoc/'>Home</a> > <a href='https://scgmlz.github.io/hugo-theme-scgdoc/documentation/'>Documentation</a> > Get started
+
+ 
+
+ 
+
+   
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+    
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      
+      
+  
+  <h3 id="how-to-get-started">How to get started</h3>
+<p>Here we explain how to start playing with <a href="https://gohugo.io">Hugo</a> and
+our <a href="https://github.com/scgmlz/hugo-theme-scgdoc">Scientific Computing Group Thema</a>.</p>
+<h4 id="install-hugo">Install Hugo</h4>
+<ul>
+<li>Downloads latest hugo from <a href="https://github.com/gohugoio/hugo/releases">here</a>.</li>
+<li>Archive will contain single binary which you will have to put to your <code>$HOME/bin</code> directory, for example</li>
+</ul>
+<h4 id="cloning-our-site">Cloning our site</h4>
+<p>Our site repository contains two branches. <code>Master</code> branch contains the theme and markdown content of the site.
+<code>gh-pages</code> branch contains generated html.</p>
+<p>Clone our site.</p>
+<pre><code>$ git clone https://github.com/scgmlz/hugo-theme-scgdoc.git
+</code></pre><p>While being in <code>master</code> branch configure <code>public</code> directory to be a worktree for <code>gh-pages</code> branch (should be done only once). This step can be skipped when using the more classical approach of creating an extra clone.</p>
+<pre><code>$ git worktree add -B gh-pages public origin/gh-pages
+</code></pre><p>Put <code>public</code> branch in <code>.gitignore</code>.</p>
+<pre><code>$ echo 'public/*' &gt;&gt; .gitignore;  echo '.gitignore' &gt;&gt; .gitignore
+</code></pre><h4 id="run-hugo-make-you-first-changes">Run Hugo, make you first changes</h4>
+<p>Run Hugo server on <code>master</code> branch.</p>
+<pre><code>$ cd &lt;source&gt;
+$ hugo server --disableFastRender
+</code></pre><p>Open web-browser using address Hugo will tell you (most probably http://localhost:1313/hugo-theme-scgdoc/).
+Modify <code>&lt;source&gt;/content/_index.md</code> and see updated landing page in a browser. Commit your changes.</p>
+<pre><code>$ cd &lt;source&gt;; git add _index.md; git commit -m &quot;my changes&quot;; git push
+</code></pre><h4 id="publishing-new-version-of-web-site-on-github">Publishing new version of web site on GitHub</h4>
+<h5 id="using-the-git-worktree">Using the git worktree</h5>
+<p>To generate new site in <code>public</code> run <code>hugo</code> without parameters.</p>
+<pre><code>$ hugo
+</code></pre><p>Push new version of site to <code>gh-pages</code> using worktree syncronization.</p>
+<pre><code>cd public &amp;&amp; git add --all &amp;&amp; git commit -m &quot;Publishing to gh-pages&quot; &amp;&amp; git push origin gh-pages
+</code></pre><p>See details in <a href="https://discourse.gohugo.io/t/simple-deployment-to-gh-pages/5003">Deployment to gh-pages branch</a></p>
+<p>In few minutes, check <a href="https://scgmlz.github.io/hugo-theme-scgdoc/">https://scgmlz.github.io/scgdoc-hugo/</a> to see if your changes have been successfully published.</p>
+<h5 id="using-a-local-git-clone">Using a local git clone</h5>
+<p>Follow these steps:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># remove previous publication</span>
+rm -rf public
+mkdir public
+
+<span class="c1"># clone gh-pages branch from the local repo into a repo located within &#34;public&#34;</span>
+git clone .git --branch gh-pages public
+  
+<span class="c1"># generate</span>
+hugo
+  
+<span class="c1"># commit the changes in the clone and push them back to the *local* gh-pages branch</span>    
+<span class="nb">cd</span> public
+git commit -a -m <span class="s2">&#34;Publishing to gh-pages&#34;</span>
+git push origin gh-pages
+
+<span class="c1"># push the changes to the remote origin</span>
+<span class="nb">cd</span> ..
+git push origin :
+</code></pre></div><h4 id="cleaning-previous-publication">Cleaning previous publication</h4>
+<p>To clean from remnants of previous publication</p>
+<pre><code>rm -rf public
+mkdir public
+git worktree prune
+rm -rf .git/worktrees/public/
+git worktree add -B gh-pages public origin/gh-pages
+</code></pre>
+
+      <div class="container next-prev">
+<nav>
+  <ul class="pagination pagination-sm justify-content-end"><li class="page-item ">
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/overview/" class="page-link"><i class="fa fa-chevron-left fa-1g "></i>
+      </a>
+    </li>  
+
+    <li class="page-item ">
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/" class="page-link"><i class="fa fa-chevron-right fa-1g "></i>
+      </a>
+    </li></ul>
+</nav>
+</div>
+
+    </div>
+    <div class="col-md-4">
+    <ul class="doctree">
+    <li class="dd-item parent">
+          <i class="fa liOpened li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/"><span>Documentation</span></a>
+        <ul>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/overview/"><span>Overview</span> </a>
+    </li>
+    <li class="dd-item active">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/getstarted/"><span>Get started</span> </a>
+    </li>
+    <li class="dd-item"><i class="fa liClosed li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/"><span>Playground</span></a>
+        <ul>
+    <li class="dd-item"><i class="fa liClosed li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/"><span>Basic markdown</span></a>
+        <ul>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/headers/"><span>Paragraphs and headers</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/emphasis/"><span>Emphasis</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/list-elements/"><span>List elements</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/table-elements/"><span>Table elements</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/basic-markdown/link-elements/"><span>Link elements</span> </a>
+    </li>
+        </ul>
+    </li>
+    <li class="dd-item"><i class="fa liClosed li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/code-highlight/"><span>Code highlight</span></a>
+        <ul>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/code-highlight/basic-highlight/"><span>Basic highlight</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/code-highlight/embedded-files/"><span>Python code embedded</span> </a>
+    </li>
+        </ul>
+    </li>
+    <li class="dd-item"><i class="fa liClosed li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/"><span>Images</span></a>
+        <ul>
+    <li class="dd-item"><i class="fa liClosed li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/"><span>Insert images</span></a>
+        <ul>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/basic-insert/"><span>Insert via markdown</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/figure-shortcode/"><span>Standard figure shortcode</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/figscg-shortcode/"><span>Custom figscg shortcode</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/insert-image/resource-images/"><span>Resource image</span> </a>
+    </li>
+        </ul>
+    </li>
+    <li class="dd-item"><i class="fa liClosed li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/"><span>Image gallery</span></a>
+        <ul>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/galleryscg-shortcode/"><span>Simple gallery with galleryscg shortcode</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/images/image-gallery/media-gallery/"><span>Media gallery</span> </a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="dd-item"><i class="fa liClosed li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/"><span>Children shortcode</span></a>
+        <ul>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child1/"><span>Child1</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child2/"><span>Child2</span> </a>
+    </li>
+    <li class="dd-item"><i class="fa liClosed li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child3/"><span>Child3</span></a>
+        <ul>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child3/grandchild1/"><span>Grandchild1</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child3/grandchild2/"><span>Grandchild2</span> </a>
+    </li>
+        </ul>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/children/child4/"><span>Child4</span> </a>
+    </li>
+        </ul>
+    </li>
+    <li class="dd-item"><i class="fa liClosed li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/advanced/"><span>Advanced techniques</span></a>
+        <ul>
+    <li class="dd-item"><i class="fa liClosed li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/advanced/children-preview/"><span>Children preview</span></a>
+        <ul>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/advanced/children-preview/child1/"><span>Cylinders in Distorted Wave Born Approximation</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/advanced/children-preview/child2/"><span>Custom Form Factor</span> </a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/using-latex/"><span>Using Latex</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/alert-panels/"><span>Allerts, notices and cards</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/buttons/"><span>Action buttons</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/labels-and-icons/"><span>Labels and icons</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/tabs-nav/"><span>Tabs navigation</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/collapse-expand/"><span>Collaps expand</span> </a>
+    </li>
+    <li class="dd-item">
+      <i class="fa liSingle li-item-icon"></i>
+      <a href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/playground/video/"><span>Youtube and staff</span> </a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+
+    </div>
+  </div>
+</div>    <hr>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <ul class="list-inline text-center">
+                    
+                      <li class="list-inline-item social">
+                        <a href="mailto:james.bond@gmail.com">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    
+                    
+                    <li class="list-inline-item social">
+                      <a href="https://github.com/gamesbond">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                  <p class="copyright text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://scgmlz.github.io/hugo-theme-scgdoc//js/bootstrap.min.js"></script>
+    
+    <script src="https://scgmlz.github.io/hugo-theme-scgdoc//js/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run('.galleryscg');
+    </script>    
+    
+    <script src="https://scgmlz.github.io/hugo-theme-scgdoc//js/theme.js"></script>
+    <script src="https://scgmlz.github.io/hugo-theme-scgdoc/js/exampleSite.js"></script>
+    
+    
+</body>
+</html>
+
+

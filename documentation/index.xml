@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on ProjectName</title>
+    <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/</link>
+    <description>Recent content in Documentation on ProjectName</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://scgmlz.github.io/hugo-theme-scgdoc/documentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/overview/</guid>
+      <description>Overview Prototype of the documentation site made with Hugo and Bootstrap. The documentation theme is called hugo-theme-scgdoc and is supported by the Scientific Computing Group at MLZ. The theme is heavilly based on following projects
+ hugo-theme-learn - Documentation theme for Hugo docDoc - Documentation theme for Hugo Startboostrap Clean Blog  Site layout This theme expects a standard Hugo blog/personal site layout:
+. └── content ├── posts | ├── release-1.</description>
+    </item>
+    
+    <item>
+      <title>Get started</title>
+      <link>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/getstarted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scgmlz.github.io/hugo-theme-scgdoc/documentation/getstarted/</guid>
+      <description>How to get started Here we explain how to start playing with Hugo and our Scientific Computing Group Thema.
+Install Hugo  Downloads latest hugo from here. Archive will contain single binary which you will have to put to your $HOME/bin directory, for example  Cloning our site Our site repository contains two branches. Master branch contains the theme and markdown content of the site. gh-pages branch contains generated html.</description>
+    </item>
+    
+  </channel>
+</rss>
